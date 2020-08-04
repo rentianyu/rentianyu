@@ -45,7 +45,7 @@ crontab –l
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">minute hour day month week <span class="nb">command</span>
-  分    时    日   月    周   命令
+  分    时   日   月    周   命令
   
 <span class="c1"># 举例：每天8点执行命令</span>
 <span class="m">00</span> <span class="m">08</span> * * * sh /root/hello.sh

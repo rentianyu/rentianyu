@@ -20,7 +20,7 @@ crontab –l
 
 ```bash
 minute hour day month week command
-  分    时    日   月    周   命令
+  分    时   日   月    周   命令
   
 # 举例：每天8点执行命令
 00 08 * * * sh /root/hello.sh
