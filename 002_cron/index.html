@@ -34,7 +34,7 @@
                             "url": "https:\/\/xiao_beita.gitee.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "Ubuntu, cron, 定时任务","wordcount":  536 ,
+                        }],"genre": "posts","keywords": "Ubuntu, cron, 定时任务","wordcount":  537 ,
         "url": "https:\/\/xiao_beita.gitee.io\/002_cron\/","datePublished": "2020-08-04T15:31:47+08:00","dateModified": "2020-08-04T15:31:47+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -116,7 +116,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Ubuntu定时任务之crontab</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://xiao_beita.gitee.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>小贝塔</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%95%99%E7%A8%8B/"><i class="far fa-folder fa-fw"></i>教程</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-04">2020-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 536 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-04">2020-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 537 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -171,19 +171,19 @@ crontab –l
 </code></pre></td></tr></table>
 </div>
 </div><p>说明：</p>
-<p><em>minute</em>： 表示分钟，可以是从 0 到 59 之间的任何整数</p>
-<p><em>hour</em>：表示小时，可以是从 0 到 23 之间的任何整数</p>
-<p><em>day</em>：表示日期，可以是从 1 到 31 之间的任何整数</p>
-<p><em>month</em>：表示月份，可以是从 1 到 12 之间的任何整数</p>
-<p><em>week</em>：表示星期几，可以是从 0 到 7 之间的任何整数，这里的 0 或 7 代表星期日</p>
-<p><em>command</em>：要执行的命令，可以是系统命令，也可以是自己编写的脚本文件</p>
+<p><code>minute</code>： 表示分钟，可以是从 0 到 59 之间的任何整数</p>
+<p><code>hour</code>：表示小时，可以是从 0 到 23 之间的任何整数</p>
+<p><code>day</code>：表示日期，可以是从 1 到 31 之间的任何整数</p>
+<p><code>month</code>：表示月份，可以是从 1 到 12 之间的任何整数</p>
+<p><code>week</code>：表示星期几，可以是从 0 到 7 之间的任何整数，这里的 0 或 7 代表星期日</p>
+<p><code>command</code>：要执行的命令，可以是系统命令，也可以是自己编写的脚本文件</p>
 <blockquote>
 <p>在以上各个字段中，还可以使用以下特殊字符：</p>
 </blockquote>
-<p><em>星号（*）</em>：代表所有可能的值，例如 month 字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作</p>
-<p><em>逗号（,）</em>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
-<p><em>中杠（-）</em>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
-<p><em>正斜线（/）</em>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如*/10，如果用在 minute 字段，表示每十分钟执行一次</p>
+<p><code>星号（\*）</code>：代表所有可能的值，例如 month 字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作</p>
+<p><code>逗号（,）</code>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
+<p><code>中杠（-）</code>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
+<p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
