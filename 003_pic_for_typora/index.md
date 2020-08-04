@@ -11,7 +11,7 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 
 ![PiCGo-Core(command line)](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804223526238.png)
 
-## 2. 安装pic-go插件并打开配置文件，（最小化打开的文件窗口）
+## 2. 安装pic-go插件并打开配置文件，也就是执行以下命令
 
 ```cmd
 # cmd里执行以下两个命令
@@ -19,11 +19,19 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 %UserProfile%\.picgo\config.json
 ```
 
+> 最小化打开的窗口，不要关闭
+
+
+
 ## 3. 获取*`Gitee`*的用户名、仓库和私人令牌
 
 ### 3.1. 注册并登录Gitee (<https://gitee.com>)，记录用户名
+
 ### 3.2. 右上角`+`，新建仓库（建一个公开项目），记录仓库名
+
 ### 3.3. [点击创建私人令牌](https://gitee.com/profile/personal_access_tokens/new) ，记录私人令牌的值
+
+
 
 ##  3. 修改配置文件
 
@@ -57,6 +65,8 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 }
 ```
 
+
+
 ## 4. 使用方法
 
 ### 4.1 图片直接拖入到Typora里，并右击图片上传
@@ -64,6 +74,8 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 ### 4.2 QQ或者微信截图之后，到Typora里粘贴，右击图片上传
 
 ![上传图片](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804221430108.png)
+
+
 
 ## 5. 本项目说明及手机端图床软件推荐
 
