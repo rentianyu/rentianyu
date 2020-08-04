@@ -5,37 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>scoop 使用教程 - 小贝塔</title><meta name="Description" content="scoop 自用教程"><meta property="og:title" content="scoop 使用教程" />
-<meta property="og:description" content="scoop 自用教程" />
+        <title>Ubuntu定时任务之crontab - 小贝塔</title><meta name="Description" content="ubuntu定时任务"><meta property="og:title" content="Ubuntu定时任务之crontab" />
+<meta property="og:description" content="ubuntu定时任务" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xiao_beita.gitee.io/001_scoop/" />
+<meta property="og:url" content="https://xiao_beita.gitee.io/002_cron/" />
 <meta property="og:image" content="https://xiao_beita.gitee.io/logo.png"/>
-<meta property="article:published_time" content="2020-08-04T11:17:53+08:00" />
-<meta property="article:modified_time" content="2020-08-04T12:06:00+08:00" />
+<meta property="article:published_time" content="2020-08-04T15:31:47+08:00" />
+<meta property="article:modified_time" content="2020-08-04T15:31:47+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://xiao_beita.gitee.io/logo.png"/>
 
-<meta name="twitter:title" content="scoop 使用教程"/>
-<meta name="twitter:description" content="scoop 自用教程"/>
+<meta name="twitter:title" content="Ubuntu定时任务之crontab"/>
+<meta name="twitter:description" content="ubuntu定时任务"/>
 <meta name="application-name" content="小贝塔">
 <meta name="apple-mobile-web-app-title" content="小贝塔"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xiao_beita.gitee.io/001_scoop/" /><link rel="prev" href="https://xiao_beita.gitee.io/000_benediction/" /><link rel="next" href="https://xiao_beita.gitee.io/002_cron/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xiao_beita.gitee.io/002_cron/" /><link rel="prev" href="https://xiao_beita.gitee.io/001_scoop/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "scoop 使用教程",
+        "headline": "Ubuntu定时任务之crontab",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/xiao_beita.gitee.io\/001_scoop\/"
+            "@id": "https:\/\/xiao_beita.gitee.io\/002_cron\/"
         },"image": [{
                             "@type": "ImageObject",
                             "url": "https:\/\/xiao_beita.gitee.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "scoop, 电脑, 自用","wordcount":  287 ,
-        "url": "https:\/\/xiao_beita.gitee.io\/001_scoop\/","datePublished": "2020-08-04T11:17:53+08:00","dateModified": "2020-08-04T12:06:00+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "Ubuntu, cron, 定时任务","wordcount":  536 ,
+        "url": "https:\/\/xiao_beita.gitee.io\/002_cron\/","datePublished": "2020-08-04T15:31:47+08:00","dateModified": "2020-08-04T15:31:47+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -45,7 +45,7 @@
                 }},"author": {
                 "@type": "Person",
                 "name": "小贝塔"
-            },"description": "scoop 自用教程"
+            },"description": "ubuntu定时任务"
     }
     </script></head>
     <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -114,103 +114,81 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">scoop 使用教程</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Ubuntu定时任务之crontab</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://xiao_beita.gitee.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>小贝塔</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%95%99%E7%A8%8B/"><i class="far fa-folder fa-fw"></i>教程</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-04">2020-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 287 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-04">2020-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 536 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><h1 id="scoop-使用教程">scoop 使用教程</h1>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-crontab有关命令">1. <code>crontab</code>有关命令</a></li>
+    <li><a href="#2-定时任务语法">2. 定时任务语法</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="ubuntu定时任务">Ubuntu定时任务</h1>
+<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># 管理员运行powershell</span>
-<span class="c"># 设置powershell代理，只适用于v2ray,其他请修改相应端口</span>
-<span class="nv">$Env:http_proxy</span><span class="p">=</span><span class="s2">&#34;http://127.0.0.1:10809&#34;</span>
-<span class="nv">$Env:https_proxy</span><span class="p">=</span><span class="s2">&#34;http://127.0.0.1:10809&#34;</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 重启cron服务</span>
+service cron restart
 
-<span class="c"># 安装 scoop</span>
-<span class="nb">Set-ExecutionPolicy</span> <span class="n">RemoteSigned</span> <span class="n">-scope</span> <span class="n">CurrentUser</span>
-<span class="nb">iwr </span><span class="n">-useb</span> <span class="n">get</span><span class="p">.</span><span class="n">scoop</span><span class="p">.</span><span class="n">sh</span> <span class="p">|</span> <span class="nb">iex
-</span><span class="nb"></span><span class="c"># 或</span>
-<span class="nb">Invoke-Expression</span> <span class="p">(</span><span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Net</span><span class="p">.</span><span class="n">WebClient</span><span class="p">).</span><span class="n">DownloadString</span><span class="p">(</span><span class="s1">&#39;https://get.scoop.sh&#39;</span><span class="p">)</span>
+<span class="c1"># 编辑定时任务（重启cron服务才会生效）</span>
+crontab –e
 
-<span class="n">scoop</span> <span class="n">checkup</span>                <span class="c"># 检查错误</span>
-
-<span class="c"># 安装</span>
-<span class="n">scoop</span> <span class="n">install</span> <span class="n">git</span> <span class="n">sudo</span>
-<span class="n">sudo</span> <span class="n">scoop</span> <span class="n">install</span> <span class="n">sudo</span> <span class="n">-g</span>
-
-<span class="c"># 别名</span>
-<span class="n">scoop</span> <span class="k">alias</span> <span class="n">add</span> <span class="n">as</span> <span class="s1">&#39;scoop update *|scoop cache rm *|scoop cleanup *&#39;</span> <span class="s1">&#39;更新清除&#39;</span>
-<span class="n">scoop</span> <span class="k">alias</span> <span class="n">add</span> <span class="n">l</span> <span class="s1">&#39;scoop list&#39;</span> <span class="s1">&#39;列表&#39;</span>
-
-<span class="c"># 检查已添加的别名</span>
-<span class="n">scoop</span> <span class="k">alias</span> <span class="n">list</span> <span class="n">-v</span>
-
-<span class="c"># 先添加bucket</span>
-<span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">extras</span>
-<span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">nirsoft</span>
-<span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">dorado</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">h404bi</span><span class="p">/</span><span class="n">dorado</span>
-<span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">Ash258</span> <span class="s1">&#39;https://github.com/Ash258/Scoop-Ash258.git&#39;</span>
-<span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">nerd-fonts</span>
-<span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">nonportable</span>
-
-<span class="c"># scoop 安装更纱字体</span>
-<span class="n">sudo</span> <span class="n">scoop</span> <span class="n">install</span> <span class="n">SarasaGothic-SC</span> <span class="n">-g</span>
-
-<span class="c"># scoop 安装软件</span>
-<span class="n">scoop</span> <span class="n">install</span> <span class="n">7zip</span> <span class="n">adb</span> <span class="n">aria2</span> <span class="n">aria-ng-gui</span> <span class="n">bilibili-livehime</span> <span class="n">busybox</span> <span class="n">clash-for-windows</span> <span class="n">dark</span> <span class="n">dismplusplus</span> <span class="n">ffmpeg</span> <span class="n">firefox</span> <span class="n">git</span> <span class="n">Hack-NF</span> <span class="n">hugo-extended</span> <span class="n">innounp</span> <span class="n">jq</span> <span class="n">lessmsi</span> <span class="n">listary</span> <span class="n">mobaxterm</span> <span class="n">neatdownloadmanager</span> <span class="n">nmap</span> <span class="n">nodejs</span> <span class="n">notepad3</span> <span class="n">officetoolplus</span> <span class="n">pandoc</span> <span class="n">python</span> <span class="n">qtscrcpy</span> <span class="n">rclone</span> <span class="n">SarasaGothic-SC</span> <span class="n">shadowsocksr-csharp</span> <span class="n">Snipaste</span> <span class="n">spacesniffer</span> <span class="n">teamviewer</span> <span class="n">trafficmonitor</span> <span class="n">v2rayn</span> <span class="n">vim</span> <span class="n">vscode</span> <span class="n">winscp</span>
+<span class="c1"># 列出定时任务</span>
+crontab –l
 </code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><h2 id="2-定时任务语法">2. 定时任务语法</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">minute hour day month week <span class="nb">command</span>
+  分    时    日   月    周   命令
+  
+<span class="c1"># 举例：每天8点执行命令</span>
+<span class="m">00</span> <span class="m">08</span> * * * sh /root/hello.sh
+</code></pre></td></tr></table>
+</div>
+</div><p>说明：</p>
+<p><em>minute</em>： 表示分钟，可以是从 0 到 59 之间的任何整数</p>
+<p><em>hour</em>：表示小时，可以是从 0 到 23 之间的任何整数</p>
+<p><em>day</em>：表示日期，可以是从 1 到 31 之间的任何整数</p>
+<p><em>month</em>：表示月份，可以是从 1 到 12 之间的任何整数</p>
+<p><em>week</em>：表示星期几，可以是从 0 到 7 之间的任何整数，这里的 0 或 7 代表星期日</p>
+<p><em>command</em>：要执行的命令，可以是系统命令，也可以是自己编写的脚本文件</p>
+<blockquote>
+<p>在以上各个字段中，还可以使用以下特殊字符：</p>
+</blockquote>
+<p><em>星号（*）</em>：代表所有可能的值，例如 month 字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作</p>
+<p><em>逗号（,）</em>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
+<p><em>中杠（-）</em>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
+<p><em>正斜线（/）</em>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如*/10，如果用在 minute 字段，表示每十分钟执行一次</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-08-04&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/02ff3f015995b066156a6445cf5f62da4ad5c979" target="_blank" title="commit by rentianyu(1782898491@qq.com) 02ff3f015995b066156a6445cf5f62da4ad5c979: auto-push">
-                                    <i class="fas fa-hashtag fa-fw"></i>02ff3f0</a></span>
+                <span>更新于 2020-08-04</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -223,14 +201,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/scoop/">scoop</a>,&nbsp;<a href="/tags/%E7%94%B5%E8%84%91/">电脑</a>,&nbsp;<a href="/tags/%E8%87%AA%E7%94%A8/">自用</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/ubuntu/">Ubuntu</a>,&nbsp;<a href="/tags/cron/">cron</a>,&nbsp;<a href="/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/">定时任务</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/000_benediction/" class="prev" rel="prev" title="所行化坦途，所求皆如愿"><i class="fas fa-angle-left fa-fw"></i>所行化坦途，所求皆如愿</a>
-            <a href="/002_cron/" class="next" rel="next" title="Ubuntu定时任务之crontab">Ubuntu定时任务之crontab<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/001_scoop/" class="prev" rel="prev" title="scoop 使用教程"><i class="fas fa-angle-left fa-fw"></i>scoop 使用教程</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
