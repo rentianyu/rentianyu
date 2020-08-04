@@ -9,7 +9,7 @@
 
 Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）
 
-![PiCGo-Core(command line)](003_pic_for_typora.assets/image-20200804212504366.png)
+![PiCGo-Core(command line)](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804223526238.png)
 
 ## 2. 安装pic-go插件并打开配置文件，（最小化打开的文件窗口）
 
