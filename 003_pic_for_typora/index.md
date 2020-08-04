@@ -5,11 +5,17 @@
 
 > 本教程以*`Gitee`*做图床为例
 
+---
+
 ## 1. *`Typora`*里安装*`PiCGo-Core`*命令行版
 
 Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）
 
 ![PiCGo-Core(command line)](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804223526238.png)
+
+
+
+---
 
 ## 2. 安装pic-go插件并打开配置文件，也就是执行以下命令
 
@@ -21,7 +27,7 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 
 > 最小化打开的窗口，不要关闭
 
-
+---
 
 ## 3. 获取*`Gitee`*的用户名、仓库和私人令牌
 
@@ -31,7 +37,7 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 
 ### 3.3. [点击创建私人令牌](https://gitee.com/profile/personal_access_tokens/new) ，记录私人令牌的值
 
-
+---
 
 ##  3. 修改配置文件
 
@@ -65,7 +71,7 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 }
 ```
 
-
+---
 
 ## 4. 使用方法
 
@@ -75,9 +81,11 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 
 ![上传图片](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804221430108.png)
 
-
+---
 
 ## 5. 本项目说明及手机端图床软件推荐
 
 - PiCGo-Core 不仅支持Gitee还支持微博、七牛云、腾讯云COS、又拍云、GitHub、阿里云OSS、SM.MS、imgur等，具体配置我就不提供了，请自行搜索
 - 手机推荐[咕咚云图](https://www.coolapk.com/apk/name.gudong.pic)上传图片做图床，目前支持的图床如下<img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/gudong.png" alt="咕咚云图" style="zoom:50%;" />
+
+---
