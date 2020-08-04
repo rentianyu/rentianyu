@@ -4,9 +4,18 @@
         <link>https://xiao_beita.gitee.io/</link>
         <description>小贝塔网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Aug 2020 15:31:47 &#43;0800</lastBuildDate>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Aug 2020 17:09:41 &#43;0800</lastBuildDate>
             <atom:link href="https://xiao_beita.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Test</title>
+    <link>https://xiao_beita.gitee.io/test/</link>
+    <pubDate>Tue, 04 Aug 2020 17:09:41 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://xiao_beita.gitee.io/test/</guid>
+    <description><![CDATA[<video width="1920" height="1080" controls>
+    <source src="https://file.beita.workers.dev/3:/%E7%94%B5%E5%BD%B1/%E7%99%BD%E8%9B%87%EF%BC%9A%E7%BC%98%E8%B5%B7(2019)/%E7%99%BD%E8%9B%87%EF%BC%9A%E7%BC%98%E8%B5%B7.BD.1080p.%E5%9B%BD%E8%AF%AD%E4%B8%AD%E8%8B%B1%E5%8F%8C%E5%AD%97-trailer.mp4" type="video/mp4">
+</video>]]></description>
+</item><item>
     <title>Ubuntu定时任务之crontab</title>
     <link>https://xiao_beita.gitee.io/002_cron/</link>
     <pubDate>Tue, 04 Aug 2020 15:31:47 &#43;0800</pubDate>
