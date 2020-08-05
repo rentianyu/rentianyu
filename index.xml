@@ -74,31 +74,31 @@ C<span class="p">:</span><span class="nl">\Users\Admin\AppData\Roaming\Typora\pi
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-java" data-lang="java"><span class="o">{</span>
-  <span class="s">&#34;picBed&#34;</span><span class="o">:</span> <span class="o">{</span>
-    <span class="s">&#34;current&#34;</span><span class="o">:</span> <span class="s">&#34;gitee&#34;</span><span class="o">,</span>
-    <span class="s">&#34;uploader&#34;</span><span class="o">:</span> <span class="s">&#34;gitee&#34;</span><span class="o">,</span>
-    <span class="s">&#34;gitee&#34;</span><span class="o">:</span> <span class="o">{</span>
-      <span class="s">&#34;branch&#34;</span><span class="o">:</span> <span class="s">&#34;master&#34;</span><span class="o">,</span>
-      <span class="s">&#34;customPath&#34;</span><span class="o">:</span> <span class="s">&#34;yearMonth&#34;</span><span class="o">,</span>
-      <span class="s">&#34;customUrl&#34;</span><span class="o">:</span> <span class="s">&#34;&#34;</span><span class="o">,</span>
-      <span class="s">&#34;path&#34;</span><span class="o">:</span> <span class="s">&#34;&#34;</span><span class="o">,</span>
-      <span class="s">&#34;repo&#34;</span><span class="o">:</span> <span class="s">&#34;用户名/仓库名&#34;</span><span class="o">,</span>
-      <span class="s">&#34;token&#34;</span><span class="o">:</span> <span class="s">&#34;私人令牌&#34;</span>
-    <span class="o">},</span>
-    <span class="s">&#34;transformer&#34;</span><span class="o">:</span> <span class="s">&#34;path&#34;</span>
-  <span class="o">},</span>
-  <span class="s">&#34;picgoPlugins&#34;</span><span class="o">:</span> <span class="o">{</span>
-    <span class="s">&#34;picgo-plugin-gitee-uploader&#34;</span><span class="o">:</span> <span class="kc">true</span><span class="o">,</span>
-    <span class="s">&#34;picgo-plugin-github-plus&#34;</span><span class="o">:</span> <span class="kc">true</span>
-  <span class="o">},</span>
-  <span class="s">&#34;picgo-plugin-gitee-uploader&#34;</span><span class="o">:</span> <span class="o">{</span>
-    <span class="s">&#34;lastSync&#34;</span><span class="o">:</span> <span class="s">&#34;2020-04-30 01:41:13&#34;</span>
-  <span class="o">},</span>
-  <span class="s">&#34;picgo-plugin-github-plus&#34;</span><span class="o">:</span> <span class="o">{</span>
-    <span class="s">&#34;lastSync&#34;</span><span class="o">:</span> <span class="s">&#34;2020-04-07 11:09:08&#34;</span>
-  <span class="o">}</span>
-<span class="o">}</span>
+<pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&#34;picBed&#34;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&#34;current&#34;</span><span class="p">:</span> <span class="s2">&#34;gitee&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;uploader&#34;</span><span class="p">:</span> <span class="s2">&#34;gitee&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;gitee&#34;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&#34;branch&#34;</span><span class="p">:</span> <span class="s2">&#34;master&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;customPath&#34;</span><span class="p">:</span> <span class="s2">&#34;yearMonth&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;customUrl&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;path&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;repo&#34;</span><span class="p">:</span> <span class="s2">&#34;用户名/仓库名&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;token&#34;</span><span class="p">:</span> <span class="s2">&#34;私人令牌&#34;</span>
+    <span class="p">},</span>
+    <span class="nt">&#34;transformer&#34;</span><span class="p">:</span> <span class="s2">&#34;path&#34;</span>
+  <span class="p">},</span>
+  <span class="nt">&#34;picgoPlugins&#34;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&#34;picgo-plugin-gitee-uploader&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nt">&#34;picgo-plugin-github-plus&#34;</span><span class="p">:</span> <span class="kc">true</span>
+  <span class="p">},</span>
+  <span class="nt">&#34;picgo-plugin-gitee-uploader&#34;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&#34;lastSync&#34;</span><span class="p">:</span> <span class="s2">&#34;2020-04-30 01:41:13&#34;</span>
+  <span class="p">},</span>
+  <span class="nt">&#34;picgo-plugin-github-plus&#34;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&#34;lastSync&#34;</span><span class="p">:</span> <span class="s2">&#34;2020-04-07 11:09:08&#34;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><hr>

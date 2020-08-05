@@ -43,7 +43,7 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 
 将以下内容全部复制并替换到第一步里打开的文件，并把第二步生成的值修改为指定值，ctrl+s保存文件退出
 
-```java
+```json
 {
   "picBed": {
     "current": "gitee",
