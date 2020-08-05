@@ -2,15 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://xiao_beita.gitee.io/categories/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/004_activate/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/categories/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/tags/office/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/posts/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/tags/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/tags/windows/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/categories/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://xiao_beita.gitee.io/tags/%E6%BF%80%E6%B4%BB/</loc><lastmod>2020-08-05T11:07:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/tags/gitee/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xiao_beita.gitee.io/posts/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xiao_beita.gitee.io/tags/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/tags/typora/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/003_pic_for_typora/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/tags/%E5%9B%BE%E5%BA%8A/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xiao_beita.gitee.io/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://xiao_beita.gitee.io/categories/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-08-04T22:01:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/tags/cron/</loc><lastmod>2020-08-04T15:31:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/tags/ubuntu/</loc><lastmod>2020-08-04T15:31:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://xiao_beita.gitee.io/002_cron/</loc><lastmod>2020-08-04T15:31:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
