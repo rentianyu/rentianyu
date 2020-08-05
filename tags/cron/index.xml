@@ -10,8 +10,7 @@
     <pubDate>Tue, 04 Aug 2020 15:31:47 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/002_cron/</guid>
-    <description><![CDATA[<h1 id="ubuntu定时任务">Ubuntu定时任务</h1>
-<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
+    <description><![CDATA[<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1

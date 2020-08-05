@@ -1,7 +1,7 @@
 # scoop 使用教程
 
 
-# scoop 使用教程
+# 代码如下
 
 ```powershell
 # 管理员运行powershell

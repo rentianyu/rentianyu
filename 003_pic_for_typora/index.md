@@ -1,7 +1,7 @@
 # Typora使用Gitee图床——以Gitee做图床为例
 
 
-# *`Typora`*使用图床——以*`Gitee`*做图床为例
+
 
 > 本教程以*`Gitee`*做图床为例
 

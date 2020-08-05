@@ -1,11 +1,7 @@
-# 004_activate
+# kms激活Windows系统和Office
 
 
-# *kms*激活*Windows*系统和*Office*
 
----
-
----
 
 ## 1. kms激活Windows系统，(推荐数字激活)
 
