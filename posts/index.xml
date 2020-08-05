@@ -5,7 +5,7 @@
         <description>所有文章 | 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
             <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>kms激活Windows系统和Office</title>
+    <title>命令行激活Windows系统和Office</title>
     <link>https://xiao_beita.gitee.io/004_activate/</link>
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
@@ -54,7 +54,9 @@ cscript ospp.vbs /act
 <p>本教程以<em><code>Gitee</code></em>做图床为例</p>
 </blockquote>
 <hr>
-<h2 id="1-typora里安装picgo-core命令行版">1. <em><code>Typora</code></em>里安装<em><code>PiCGo-Core</code></em>命令行版</h2>
+<h2 id="1-准备软件">1. 准备软件</h2>
+<h3 id="11-安装nodejs-httpsnodejsorgzh-cn">1.1 安装nodejs (<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a>)</h3>
+<h3 id="12-typora里安装picgo-core命令行版">1.2 <em><code>Typora</code></em>里安装<em><code>PiCGo-Core</code></em>命令行版</h3>
 <p>Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）</p>
 <p></p>
 <hr>
@@ -67,7 +69,7 @@ cscript ospp.vbs /act
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-cmd" data-lang="cmd"># cmd里执行以下两个命令
-C<span class="p">:</span><span class="nl">\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe</span><span class="c1"> install gitee-uploader</span>
+<span class="nv">%APPDATA%</span>\Typora\picgo\win64\picgo.exe install gitee-uploader
 <span class="nv">%UserProfile%</span>\.picgo\config.json
 </code></pre></td></tr></table>
 </div>
@@ -76,7 +78,7 @@ C<span class="p">:</span><span class="nl">\Users\Admin\AppData\Roaming\Typora\pi
 </blockquote>
 <hr>
 <h2 id="3-获取gitee的用户名仓库和私人令牌">3. 获取<em><code>Gitee</code></em>的用户名、仓库和私人令牌</h2>
-<h3 id="31-注册并登录gitee-httpsgiteecom记录用户名">3.1. 注册并登录Gitee (<a href="https://gitee.com">https://gitee.com</a>)，记录用户名</h3>
+<h3 id="31-注册并登录gitee--httpsgiteecom记录用户名">3.1. 注册并登录Gitee  (<a href="https://gitee.com">https://gitee.com</a>)，记录用户名</h3>
 <h3 id="32-右上角新建仓库建一个公开项目记录仓库名">3.2. 右上角<code>+</code>，新建仓库（建一个公开项目），记录仓库名</h3>
 <h3 id="33-点击创建私人令牌httpsgiteecomprofilepersonal_access_tokensnew-记录私人令牌的值">3.3. <a href="https://gitee.com/profile/personal_access_tokens/new" target="_blank" rel="noopener noreffer">点击创建私人令牌</a> ，记录私人令牌的值</h3>
 <hr>

@@ -1,4 +1,4 @@
-# kms激活Windows系统和Office
+# 命令行激活Windows系统和Office
 
 
 

@@ -7,7 +7,11 @@
 
 ---
 
-## 1. *`Typora`*里安装*`PiCGo-Core`*命令行版
+## 1. 准备软件
+
+### 1.1 安装nodejs (<https://nodejs.org/zh-cn/>)
+
+### 1.2 *`Typora`*里安装*`PiCGo-Core`*命令行版
 
 Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）
 
@@ -21,7 +25,7 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 
 ```cmd
 # cmd里执行以下两个命令
-C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-uploader
+%APPDATA%\Typora\picgo\win64\picgo.exe install gitee-uploader
 %UserProfile%\.picgo\config.json
 ```
 
@@ -31,7 +35,7 @@ C:\Users\Admin\AppData\Roaming\Typora\picgo\win64\picgo.exe install gitee-upload
 
 ## 3. 获取*`Gitee`*的用户名、仓库和私人令牌
 
-### 3.1. 注册并登录Gitee (<https://gitee.com>)，记录用户名
+### 3.1. 注册并登录Gitee  (<https://gitee.com>)，记录用户名
 
 ### 3.2. 右上角`+`，新建仓库（建一个公开项目），记录仓库名
 

@@ -183,6 +183,33 @@ crontab –l
 <p><code>逗号（,）</code>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
 <p><code>中杠（-）</code>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
 <p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p>
+</div>
+
+<div>
+    
+<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
+    <h5>「感谢支持」</h5>
+    <button id="rewardButton" disable="enable"
+        onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+        <span>赞赏</span></button>
+    <div id="QR" style="display: none;">
+        <div id="wechat" style="display: inline-block">
+            <a class="fancybox" rel="group">
+                <img id="wechat_qr" src="https://xiao_beita.gitee.io/images/wx.png" alt="WeChat Pay"></a>
+            <h3>微信赞赏</h3>
+        </div>
+        <div id="alipay" style="display: inline-block">
+            <a class="fancybox" rel="group">
+                <img id="alipay_qr" src="https://xiao_beita.gitee.io/images/zfb.png" alt="Alipay"></a>
+            <h3>支付宝赞赏</h3>
+        </div>
+        <div id="alipay" style="display: inline-block">
+            <a class="fancybox" rel="group">
+                <img id="qq_qr" src="https://xiao_beita.gitee.io/images/qq.png" alt="Alipay"></a>
+            <h3>QQ赞赏</h3>
+        </div>
+    </div>
+</div>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
