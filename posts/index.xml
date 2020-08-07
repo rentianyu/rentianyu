@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - 小贝塔</title>
-        <link>https://xiao_beita.gitee.io/posts/</link>
+        <link>/posts/</link>
         <description>所有文章 | 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
     <title>命令行激活Windows系统和Office</title>
-    <link>https://xiao_beita.gitee.io/004_activate/</link>
+    <link>/004_activate/</link>
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/004_activate/</guid>
+    <guid>/004_activate/</guid>
     <description><![CDATA[<h2 id="1-kms激活windows系统推荐数字激活">1. kms激活Windows系统，(推荐数字激活)</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -46,10 +46,10 @@ cscript ospp.vbs /act
 ]]></description>
 </item><item>
     <title>Typora使用Gitee图床——以Gitee做图床为例</title>
-    <link>https://xiao_beita.gitee.io/003_pic_for_typora/</link>
+    <link>/003_pic_for_typora/</link>
     <pubDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/003_pic_for_typora/</guid>
+    <guid>/003_pic_for_typora/</guid>
     <description><![CDATA[<blockquote>
 <p>本教程以<em><code>Gitee</code></em>做图床为例</p>
 </blockquote>
@@ -155,10 +155,10 @@ cscript ospp.vbs /act
 ]]></description>
 </item><item>
     <title>Ubuntu定时任务之crontab</title>
-    <link>https://xiao_beita.gitee.io/002_cron/</link>
+    <link>/002_cron/</link>
     <pubDate>Tue, 04 Aug 2020 15:31:47 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/002_cron/</guid>
+    <guid>/002_cron/</guid>
     <description><![CDATA[<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -216,10 +216,10 @@ crontab –l
 ]]></description>
 </item><item>
     <title>scoop 使用教程</title>
-    <link>https://xiao_beita.gitee.io/001_scoop/</link>
+    <link>/001_scoop/</link>
     <pubDate>Tue, 04 Aug 2020 11:17:53 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/001_scoop/</guid>
+    <guid>/001_scoop/</guid>
     <description><![CDATA[<h1 id="代码如下">代码如下</h1>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -304,10 +304,10 @@ crontab –l
 </div>]]></description>
 </item><item>
     <title>所行化坦途，所求皆如愿</title>
-    <link>https://xiao_beita.gitee.io/000_benediction/</link>
+    <link>/000_benediction/</link>
     <pubDate>Sun, 02 Aug 2020 22:30:50 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/000_benediction/</guid>
+    <guid>/000_benediction/</guid>
     <description><![CDATA[<h1 id="愿一切">愿一切</h1>
 <h1 id="所行化坦途所求皆如愿">所行化坦途，所求皆如愿</h1>
 ]]></description>
