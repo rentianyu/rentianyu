@@ -33,7 +33,9 @@ crontab –e
 crontab –l
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="2-定时任务语法">2. 定时任务语法</h2>
+</div><hr>
+<hr>
+<h2 id="2-定时任务语法">2. 定时任务语法</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1

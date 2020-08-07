@@ -6,6 +6,8 @@
 > 本教程以*`Gitee`*做图床为例
 
 ---
+---
+
 
 ## 1. 准备软件
 
@@ -18,7 +20,7 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 ![PiCGo-Core(command line)](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804223526238.png)
 
 
-
+---
 ---
 
 ## 2. 安装pic-go插件并打开配置文件，也就是执行以下命令
@@ -32,6 +34,8 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 > 最小化打开的窗口，不要关闭
 
 ---
+---
+
 
 ## 3. 获取*`Gitee`*的用户名、仓库和私人令牌
 
@@ -76,6 +80,8 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 ```
 
 ---
+---
+
 
 ## 4. 使用方法
 
@@ -86,6 +92,8 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 ![上传图片](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20200804221430108.png)
 
 ---
+---
+
 
 ## 5. 本项目说明及手机端图床软件推荐
 
@@ -93,3 +101,5 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 - 手机推荐[咕咚云图](https://www.coolapk.com/apk/name.gudong.pic)上传图片做图床，目前支持的图床如下<img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/gudong.png" alt="咕咚云图" style="zoom:50%;" />
 
 ---
+---
+
