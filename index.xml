@@ -4,9 +4,29 @@
         <link>https://xiao_beita.gitee.io/</link>
         <description>小贝塔网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Aug 2020 19:46:15 &#43;0800</lastBuildDate>
             <atom:link href="https://xiao_beita.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>牛皮</title>
+    <link>https://xiao_beita.gitee.io/%E7%89%9B%E7%9A%AE/</link>
+    <pubDate>Sun, 09 Aug 2020 19:46:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://xiao_beita.gitee.io/%E7%89%9B%E7%9A%AE/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/niupi.jpg" referrerpolicy="no-referrer">
+            </div><p><strong>这是一段祝福</strong></p>
+<p>图片放在网站根目录下的<code>\static\images</code>里</p>
+<p>头信息这样写</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">featuredImage: &#34;/images/niupi.jpg&#34;
+</code></pre></td></tr></table>
+</div>
+</div><p>要是不加images/文件夹，就放上层目录</p>]]></description>
+</item><item>
     <title>命令行激活Windows系统和Office</title>
     <link>https://xiao_beita.gitee.io/004_activate/</link>
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
@@ -46,8 +66,12 @@ cscript ospp.vbs /act
 </div><hr>
 <hr>
 <h2 id="3-想法来源和安装office地址">3. 想法来源和安装Office地址</h2>
+<blockquote>
 <p><a href="https://v0v.bid/kms.html" target="_blank" rel="noopener noreffer">Windows系统一句命令激活</a></p>
-<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>]]></description>
+</blockquote>
+<blockquote>
+<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>
+</blockquote>]]></description>
 </item><item>
     <title>Typora使用Gitee图床——以Gitee做图床为例</title>
     <link>https://xiao_beita.gitee.io/003_pic_for_typora/</link>
