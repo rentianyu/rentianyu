@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Ubuntu定时任务之crontab - 小贝塔</title><meta name="Description" content="ubuntu定时任务"><meta property="og:title" content="Ubuntu定时任务之crontab" />
-<meta property="og:description" content="ubuntu定时任务" />
+        <title>Ubuntu定时任务之crontab - 小贝塔</title><meta name="Description" content="小贝塔网站"><meta property="og:title" content="Ubuntu定时任务之crontab" />
+<meta property="og:description" content="Ubuntu 定时任务" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xiao_beita.gitee.io/002_cron/" />
 <meta property="og:image" content="https://xiao_beita.gitee.io/logo.png"/>
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="https://xiao_beita.gitee.io/logo.png"/>
 
 <meta name="twitter:title" content="Ubuntu定时任务之crontab"/>
-<meta name="twitter:description" content="ubuntu定时任务"/>
+<meta name="twitter:description" content="Ubuntu 定时任务"/>
 <meta name="application-name" content="小贝塔">
 <meta name="apple-mobile-web-app-title" content="小贝塔"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -34,7 +34,7 @@
                             "url": "https:\/\/xiao_beita.gitee.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "Ubuntu, cron, 定时任务","wordcount":  527 ,
+                        }],"genre": "posts","keywords": "Ubuntu, cron, 定时任务","wordcount":  532 ,
         "url": "https:\/\/xiao_beita.gitee.io\/002_cron\/","datePublished": "2020-08-04T15:31:47+08:00","dateModified": "2020-08-04T15:31:47+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -45,7 +45,7 @@
                 }},"author": {
                 "@type": "Person",
                 "name": "小贝塔"
-            },"description": "ubuntu定时任务"
+            },"description": ""
     }
     </script></head>
     <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -116,7 +116,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Ubuntu定时任务之crontab</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://xiao_beita.gitee.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>小贝塔</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%95%99%E7%A8%8B/"><i class="far fa-folder fa-fw"></i>教程</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-04">2020-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 527 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-04">2020-08-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 532 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -129,7 +129,8 @@
     <li><a href="#2-定时任务语法">2. 定时任务语法</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
+            </div><div class="content" id="content"><p><strong>Ubuntu 定时任务</strong></p>
+<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -184,8 +185,7 @@ crontab –l
 <p><code>星号（\*）</code>：代表所有可能的值，例如 month 字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作</p>
 <p><code>逗号（,）</code>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
 <p><code>中杠（-）</code>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
-<p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p>
-</div>
+<p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p></div>
 
 <div>
     

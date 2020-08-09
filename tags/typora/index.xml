@@ -10,7 +10,8 @@
     <pubDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/003_pic_for_typora/</guid>
-    <description><![CDATA[<blockquote>
+    <description><![CDATA[<p><strong>Typora 使用 Gitee 图床</strong></p>
+<blockquote>
 <p>本教程以<em><code>Gitee</code></em>做图床为例</p>
 </blockquote>
 <hr>
@@ -117,7 +118,6 @@
 <li>手机推荐<a href="https://www.coolapk.com/apk/name.gudong.pic" target="_blank" rel="noopener noreffer">咕咚云图</a>上传图片做图床，目前支持的图床如下</li>
 </ul>
 <hr>
-<hr>
-]]></description>
+<hr>]]></description>
 </item></channel>
 </rss>

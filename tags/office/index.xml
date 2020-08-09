@@ -10,7 +10,8 @@
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/004_activate/</guid>
-    <description><![CDATA[<h2 id="1-kms激活windows系统推荐数字激活">1. kms激活Windows系统，(推荐数字激活)</h2>
+    <description><![CDATA[<p><strong>使用命令行激活 Windows 系统和 Office</strong></p>
+<h2 id="1-kms激活windows系统推荐数字激活">1. kms激活Windows系统，(推荐数字激活)</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -44,7 +45,6 @@ cscript ospp.vbs /act
 <hr>
 <h2 id="3-想法来源和安装office地址">3. 想法来源和安装Office地址</h2>
 <p><a href="https://v0v.bid/kms.html" target="_blank" rel="noopener noreffer">Windows系统一句命令激活</a></p>
-<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>
-]]></description>
+<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>]]></description>
 </item></channel>
 </rss>

@@ -12,7 +12,8 @@
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/004_activate/</guid>
-    <description><![CDATA[<h2 id="1-kms激活windows系统推荐数字激活">1. kms激活Windows系统，(推荐数字激活)</h2>
+    <description><![CDATA[<p><strong>使用命令行激活 Windows 系统和 Office</strong></p>
+<h2 id="1-kms激活windows系统推荐数字激活">1. kms激活Windows系统，(推荐数字激活)</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -46,15 +47,15 @@ cscript ospp.vbs /act
 <hr>
 <h2 id="3-想法来源和安装office地址">3. 想法来源和安装Office地址</h2>
 <p><a href="https://v0v.bid/kms.html" target="_blank" rel="noopener noreffer">Windows系统一句命令激活</a></p>
-<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>
-]]></description>
+<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>]]></description>
 </item><item>
     <title>Typora使用Gitee图床——以Gitee做图床为例</title>
     <link>https://xiao_beita.gitee.io/003_pic_for_typora/</link>
     <pubDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/003_pic_for_typora/</guid>
-    <description><![CDATA[<blockquote>
+    <description><![CDATA[<p><strong>Typora 使用 Gitee 图床</strong></p>
+<blockquote>
 <p>本教程以<em><code>Gitee</code></em>做图床为例</p>
 </blockquote>
 <hr>
@@ -161,15 +162,15 @@ cscript ospp.vbs /act
 <li>手机推荐<a href="https://www.coolapk.com/apk/name.gudong.pic" target="_blank" rel="noopener noreffer">咕咚云图</a>上传图片做图床，目前支持的图床如下</li>
 </ul>
 <hr>
-<hr>
-]]></description>
+<hr>]]></description>
 </item><item>
     <title>Ubuntu定时任务之crontab</title>
     <link>https://xiao_beita.gitee.io/002_cron/</link>
     <pubDate>Tue, 04 Aug 2020 15:31:47 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/002_cron/</guid>
-    <description><![CDATA[<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
+    <description><![CDATA[<p><strong>Ubuntu 定时任务</strong></p>
+<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -224,15 +225,15 @@ crontab –l
 <p><code>星号（\*）</code>：代表所有可能的值，例如 month 字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作</p>
 <p><code>逗号（,）</code>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
 <p><code>中杠（-）</code>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
-<p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p>
-]]></description>
+<p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p>]]></description>
 </item><item>
     <title>scoop 使用教程</title>
     <link>https://xiao_beita.gitee.io/001_scoop/</link>
     <pubDate>Tue, 04 Aug 2020 11:17:53 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/001_scoop/</guid>
-    <description><![CDATA[<h1 id="代码如下">代码如下</h1>
+    <description><![CDATA[<p><strong>scoop 自用教程</strong></p>
+<h1 id="代码如下">代码如下</h1>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -320,8 +321,8 @@ crontab –l
     <pubDate>Sun, 02 Aug 2020 22:30:50 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/000_benediction/</guid>
-    <description><![CDATA[<h1 id="愿一切">愿一切</h1>
-<h1 id="所行化坦途所求皆如愿">所行化坦途，所求皆如愿</h1>
-]]></description>
+    <description><![CDATA[<p><strong>这是一段祝福</strong></p>
+<h1 id="愿一切">愿一切</h1>
+<h1 id="所行化坦途所求皆如愿">所行化坦途，所求皆如愿</h1>]]></description>
 </item></channel>
 </rss>

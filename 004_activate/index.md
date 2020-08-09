@@ -1,7 +1,9 @@
 # 命令行激活Windows系统和Office
 
 
+**使用命令行激活 Windows 系统和 Office**
 
+<!--more-->
 
 ## 1. kms激活Windows系统，(推荐数字激活)
 

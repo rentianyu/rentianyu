@@ -1,6 +1,10 @@
 # scoop 使用教程
 
 
+**scoop 自用教程**
+
+<!--more-->
+
 # 代码如下
 
 ```powershell
