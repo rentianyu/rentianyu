@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Typora - 标签 - 小贝塔</title>
-        <link>/tags/typora/</link>
+        <link>https://xiao_beita.gitee.io/tags/typora/</link>
         <description>Typora - 标签 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</lastBuildDate><atom:link href="/tags/typora/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/tags/typora/" rel="self" type="application/rss+xml" /><item>
     <title>Typora使用Gitee图床——以Gitee做图床为例</title>
-    <link>/003_pic_for_typora/</link>
+    <link>https://xiao_beita.gitee.io/003_pic_for_typora/</link>
     <pubDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>/003_pic_for_typora/</guid>
+    <guid>https://xiao_beita.gitee.io/003_pic_for_typora/</guid>
     <description><![CDATA[<blockquote>
 <p>本教程以<em><code>Gitee</code></em>做图床为例</p>
 </blockquote>
