@@ -24,6 +24,10 @@ cscript ospp.vbs /sethst:kms.v0v.bid
 cscript ospp.vbs /act
 ```
 
+---
+
+---
+
 ## 3. 想法来源和安装Office地址
 
 [Windows系统一句命令激活](https://v0v.bid/kms.html)
