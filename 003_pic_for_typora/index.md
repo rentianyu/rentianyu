@@ -1,4 +1,4 @@
-# Typora使用Gitee图床——以Gitee做图床为例
+# Typora使用图床——以Gitee做图床为例
 
 
 **Typora 使用 Gitee 图床**
@@ -15,7 +15,7 @@
 
 ### 1.1 安装nodejs (<https://nodejs.org/zh-cn/>)
 
-### 1.2 *`Typora`*里安装*`PiCGo-Core`*命令行版
+### 1.2 *`Typora`*里安装**`PiCGo-Core`**命令行版
 
 Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）
 
@@ -99,7 +99,7 @@ Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下�
 
 ## 5. 本项目说明及手机端图床软件推荐
 
-- PiCGo-Core 不仅支持Gitee还支持微博、七牛云、腾讯云COS、又拍云、GitHub、阿里云OSS、SM.MS、imgur等，具体配置我就不提供了，请自行搜索
+- PiCGo-Core 不仅支持Gitee还支持GitHub、微博、七牛云、腾讯云COS、又拍云、阿里云OSS、SM.MS、imgur等，具体配置我就不提供了，请自行搜索
 - 手机推荐[咕咚云图](https://www.coolapk.com/apk/name.gudong.pic)上传图片做图床，目前支持的图床如下<img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/gudong.png" alt="咕咚云图" style="zoom:50%;" />
 
 ---

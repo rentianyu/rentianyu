@@ -53,7 +53,7 @@ cscript ospp.vbs /act
 <p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>
 </blockquote>]]></description>
 </item><item>
-    <title>Typora使用Gitee图床——以Gitee做图床为例</title>
+    <title>Typora使用图床——以Gitee做图床为例</title>
     <link>https://xiao_beita.gitee.io/003_pic_for_typora/</link>
     <pubDate>Tue, 04 Aug 2020 22:01:43 &#43;0800</pubDate>
     <author>作者</author>
@@ -66,7 +66,7 @@ cscript ospp.vbs /act
 <hr>
 <h2 id="1-准备软件">1. 准备软件</h2>
 <h3 id="11-安装nodejs-httpsnodejsorgzh-cn">1.1 安装nodejs (<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a>)</h3>
-<h3 id="12-typora里安装picgo-core命令行版">1.2 <em><code>Typora</code></em>里安装<em><code>PiCGo-Core</code></em>命令行版</h3>
+<h3 id="12-typora里安装picgo-core命令行版">1.2 <em><code>Typora</code></em>里安装<strong><code>PiCGo-Core</code></strong>命令行版</h3>
 <p>Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）</p>
 <p></p>
 <hr>
@@ -162,7 +162,7 @@ cscript ospp.vbs /act
 <hr>
 <h2 id="5-本项目说明及手机端图床软件推荐">5. 本项目说明及手机端图床软件推荐</h2>
 <ul>
-<li>PiCGo-Core 不仅支持Gitee还支持微博、七牛云、腾讯云COS、又拍云、GitHub、阿里云OSS、SM.MS、imgur等，具体配置我就不提供了，请自行搜索</li>
+<li>PiCGo-Core 不仅支持Gitee还支持GitHub、微博、七牛云、腾讯云COS、又拍云、阿里云OSS、SM.MS、imgur等，具体配置我就不提供了，请自行搜索</li>
 <li>手机推荐<a href="https://www.coolapk.com/apk/name.gudong.pic" target="_blank" rel="noopener noreffer">咕咚云图</a>上传图片做图床，目前支持的图床如下</li>
 </ul>
 <hr>
