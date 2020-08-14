@@ -4,7 +4,61 @@
         <link>https://xiao_beita.gitee.io/posts/</link>
         <description>所有文章 | 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Aug 2020 17:21:10 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>curl命令实现坚果云上传下载</title>
+    <link>https://xiao_beita.gitee.io/005_webdav_by_curl/</link>
+    <pubDate>Fri, 14 Aug 2020 17:21:10 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://xiao_beita.gitee.io/005_webdav_by_curl/</guid>
+    <description><![CDATA[<p><strong>使用curl实现坚果云上传下载坚果云，命令适用于webdav、ftp等</strong></p>
+<blockquote>
+<ul>
+<li>1.txt &mdash;- 代表本地文件</li>
+<li><a href="https://dav.jianguoyun.com/dav/">https://dav.jianguoyun.com/dav/</a> &mdash;- 坚果云根目录</li>
+<li>示例代码是根目录下新建的test目录</li>
+<li>user:pass &mdash;- 邮箱:应用密码</li>
+<li>应用密码获取：登录坚果云 → 账户信息 → 安全选项 → 第三方应用管理 → 添加应用</li>
+<li>本命令全部没有输出</li>
+</ul>
+</blockquote>
+<h2 id="1-上传文件">1. 上传文件</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">curl -s -u <span class="s1">&#39;user:pass&#39;</span> -T <span class="s1">&#39;1.txt&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="2-下载文件">2. 下载文件</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/1.txt&#39;</span> -o <span class="s1">&#39;1.txt&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="3-删除文件">3. 删除文件</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/1.txt&#39;</span>  -X DELETE
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="4-列出当前目录文件夹及文件">4. 列出当前目录文件夹及文件</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/&#39;</span> -X PROPFIND <span class="p">|</span> grep -o <span class="s1">&#39;name&gt;[^&lt;]*&#39;</span><span class="p">|</span> grep -o <span class="s1">&#39;[^&gt;]*$&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div>]]></description>
+</item><item>
     <title>命令行激活Windows系统和Office</title>
     <link>https://xiao_beita.gitee.io/004_activate/</link>
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
