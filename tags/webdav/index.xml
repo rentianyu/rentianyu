@@ -25,18 +25,46 @@
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">curl -s -u <span class="s1">&#39;user:pass&#39;</span> -T <span class="s1">&#39;1.txt&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/&#39;</span>
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 单文件版</span>
+curl -s -u <span class="s1">&#39;user:pass&#39;</span> -T <span class="s1">&#39;1.txt&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/&#39;</span>
+
+<span class="c1"># 当前目录文件</span>
+<span class="k">for</span> i in <span class="k">$(</span>ls<span class="k">)</span>
+<span class="k">do</span> 
+curl -s -u <span class="s1">&#39;user:pass&#39;</span> -T <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">&#34;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/&#39;</span>
+<span class="k">done</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="2-下载文件">2. 下载文件</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/1.txt&#39;</span> -o <span class="s1">&#39;1.txt&#39;</span>
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 单文件版</span>
+curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/1.txt&#39;</span> -o <span class="s1">&#39;1.txt&#39;</span>
+
+<span class="c1"># 单目录版</span>
+<span class="k">for</span> i in <span class="k">$(</span> curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s1">&#39;https://dav.jianguoyun.com/dav/test/&#39;</span> -X PROPFIND <span class="p">|</span> grep -o <span class="s1">&#39;name&gt;[^&lt;]*&#39;</span><span class="p">|</span> grep -o <span class="s1">&#39;[^&gt;]*$&#39;</span> <span class="k">)</span>
+<span class="k">do</span>
+curl -s -u <span class="s1">&#39;user:pass&#39;</span> <span class="s2">&#34;https://dav.jianguoyun.com/dav/test/</span><span class="nv">$i</span><span class="s2">&#34;</span> -o <span class="nv">$i</span>
+<span class="k">done</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="3-删除文件">3. 删除文件</h2>

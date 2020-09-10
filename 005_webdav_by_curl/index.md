@@ -16,13 +16,27 @@
 ## 1. 上传文件
 
 ```shell
+# 单文件版
 curl -s -u 'user:pass' -T '1.txt' 'https://dav.jianguoyun.com/dav/test/'
+
+# 当前目录文件
+for i in $(ls)
+do 
+curl -s -u 'user:pass' -T "$i" 'https://dav.jianguoyun.com/dav/test/'
+done
 ```
 
 ## 2. 下载文件
 
 ```shell
+# 单文件版
 curl -s -u 'user:pass' 'https://dav.jianguoyun.com/dav/test/1.txt' -o '1.txt'
+
+# 单目录版
+for i in $( curl -s -u 'user:pass' 'https://dav.jianguoyun.com/dav/test/' -X PROPFIND | grep -o 'name>[^<]*'| grep -o '[^>]*$' )
+do
+curl -s -u 'user:pass' "https://dav.jianguoyun.com/dav/test/$i" -o $i
+done
 ```
 
 ## 3. 删除文件
