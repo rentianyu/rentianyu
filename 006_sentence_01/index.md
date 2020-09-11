@@ -6,7 +6,12 @@
 > 愿：所行化坦途，所求皆如愿。
 
 ### 2020年9月10日
-
+<style>
+img {
+    display: block;
+    margin: 0 auto;
+}
+</style>
 <img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/20200909235750170.png" style="zoom:50%;" />
 
 <img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/20200909235730177.png" style="zoom:50%;" />
@@ -72,3 +77,4 @@
 <img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/20200819002157584.png" style="zoom:50%;" />
 
 <img src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/20200817210035383.jpg" style="zoom: 50%;" />
+
