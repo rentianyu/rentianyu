@@ -1,8 +1,6 @@
 # GitHub与Gitee同步本地推送
 
 
-**这是一段祝福**
-
 <!--more-->
 
 >   本文摘自于[Git 多远程仓库管理：GitHub 与 Gitee 双向同步](https://p3terx.com/archives/git-multi-remote-repository-management.html)，详细用法请前往查看
