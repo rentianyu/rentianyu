@@ -193,13 +193,13 @@ cscript ospp.vbs /act
     <guid>https://xiao_beita.gitee.io/003_pic_for_typora/</guid>
     <description><![CDATA[<p><strong>Typora 使用 Gitee 图床</strong></p>
 <blockquote>
-<p>本教程以<em><code>Gitee</code></em>做图床为例</p>
+<p>本教程以*<code>Gitee</code>*做图床为例</p>
 </blockquote>
 <hr>
 <hr>
 <h2 id="1-准备软件">1. 准备软件</h2>
 <h3 id="11-安装nodejs-httpsnodejsorgzh-cn">1.1 安装nodejs (<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a>)</h3>
-<h3 id="12-typora里安装picgo-core命令行版">1.2 <em><code>Typora</code></em>里安装<strong><code>PiCGo-Core</code></strong>命令行版</h3>
+<h3 id="12-typora里安装picgo-core命令行版">1.2 <em><code>Typora</code><em>里安装</em></em><code>PiCGo-Core</code>**命令行版</h3>
 <p>Typora里，按ctrl＋逗号键 → 图像 → PiCGo-Core(command line) → 下载 （建议使用代理）</p>
 <p></p>
 <hr>
@@ -222,7 +222,7 @@ cscript ospp.vbs /act
 </blockquote>
 <hr>
 <hr>
-<h2 id="3-获取gitee的用户名仓库和私人令牌">3. 获取<em><code>Gitee</code></em>的用户名、仓库和私人令牌</h2>
+<h2 id="3-获取gitee的用户名仓库和私人令牌">3. 获取*<code>Gitee</code>*的用户名、仓库和私人令牌</h2>
 <h3 id="31-注册并登录gitee--httpsgiteecom记录用户名">3.1. 注册并登录Gitee  (<a href="https://gitee.com">https://gitee.com</a>)，记录用户名</h3>
 <h3 id="32-右上角新建仓库建一个公开项目记录仓库名">3.2. 右上角<code>+</code>，新建仓库（建一个公开项目），记录仓库名</h3>
 <h3 id="33-点击创建私人令牌httpsgiteecomprofilepersonal_access_tokensnew-记录私人令牌的值">3.3. <a href="https://gitee.com/profile/personal_access_tokens/new" target="_blank" rel="noopener noreffer">点击创建私人令牌</a> ，记录私人令牌的值</h3>
