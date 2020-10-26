@@ -4,7 +4,41 @@
         <link>https://xiao_beita.gitee.io/categories/%E6%95%99%E7%A8%8B/</link>
         <description>教程 - 分类 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 24 Oct 2020 15:19:32 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/categories/%E6%95%99%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 26 Oct 2020 13:19:30 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/categories/%E6%95%99%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>Windows系统右键增加新建MrakDown</title>
+    <link>https://xiao_beita.gitee.io/008_win_right_md/</link>
+    <pubDate>Mon, 26 Oct 2020 13:19:30 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://xiao_beita.gitee.io/008_win_right_md/</guid>
+    <description><![CDATA[<h2 id="一保证已安装typora">一、保证已安装Typora</h2>
+<h2 id="二新建reg文件并写入以下内容">二、新建<code>.reg</code>文件并写入以下内容</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">Windows</span> <span class="n">Registry</span> <span class="n">Editor</span> <span class="n">Version</span> <span class="n">5</span><span class="p">.</span><span class="n">00</span>
+<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">md</span><span class="p">]</span>
+<span class="p">@=</span><span class="s2">&#34;Typora.exe&#34;</span>
+<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">md</span><span class="p">\</span><span class="n">ShellNew</span><span class="p">]</span>
+<span class="s2">&#34;NullFile&#34;</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
+<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\</span><span class="n">Typora</span><span class="p">.</span><span class="n">exe</span><span class="p">]</span>
+<span class="p">@=</span><span class="s2">&#34;Markdown&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="三运行以上文件">三、运行以上文件</h2>
+<p>以下为效果图</p>
+<p></p>
+<blockquote>
+<p>本文代码源自于<a href="https://stepneverstop.github.io/win-rightclick-create-md.html" target="_blank" rel="noopener noreffer">Windows下右键新建.md文件教程</a></p>
+</blockquote>]]></description>
+</item><item>
     <title>GitHub与Gitee同步本地推送</title>
     <link>https://xiao_beita.gitee.io/007_github_gitee_sync/</link>
     <pubDate>Sat, 24 Oct 2020 15:19:32 &#43;0800</pubDate>
