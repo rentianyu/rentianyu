@@ -139,7 +139,7 @@ curl -L https://get.oh-my.fish | fish
 omf theme
 # 安装 ays 主题
 omf install ays
-# 更换主题为以安装的 cbjohnson 主题
+# 更换主题为已安装的 cbjohnson 主题
 omf theme cbjohnson
 # 检查 omf 是否有错误
 omf doctor
