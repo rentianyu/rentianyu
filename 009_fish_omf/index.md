@@ -55,7 +55,7 @@ EOF
 set t 123    # 相当于bash的 t=123
 
 # 括号内执行
-grep 1 (ls)    # 相当于bash的 grep $(ls)
+grep 1 (ls)    # 相当于bash的 grep 1 $(ls)
 ```
 
 -   `if`语句。

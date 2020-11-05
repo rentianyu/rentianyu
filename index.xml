@@ -110,7 +110,7 @@ cat &gt; ~/.config/fish/config.fish <span class="s">&lt;&lt;EOF
 </span><span class="c"></span><span class="k">set</span> t <span class="m">123</span>    <span class="c"># 相当于bash的 t=123
 </span><span class="c"></span>
 <span class="c"># 括号内执行
-</span><span class="c"></span>grep <span class="m">1</span> <span class="o">(</span>ls<span class="o">)</span>    <span class="c"># 相当于bash的 grep $(ls)
+</span><span class="c"></span>grep <span class="m">1</span> <span class="o">(</span>ls<span class="o">)</span>    <span class="c"># 相当于bash的 grep 1 $(ls)
 </span></code></pre></td></tr></table>
 </div>
 </div><ul>
