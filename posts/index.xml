@@ -34,7 +34,7 @@
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">dism</span><span class="p">.</span><span class="n">exe</span> <span class="p">/</span><span class="n">online</span> <span class="p">/</span><span class="nb">enable-feature</span> <span class="p">/</span><span class="n">featurename</span><span class="err">:</span><span class="n">Microsoft-Windows-Subsystem-Linux</span> <span class="p">/</span><span class="n">all</span> <span class="p">/</span><span class="n">nores</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">dism</span><span class="p">.</span><span class="n">exe</span> <span class="p">/</span><span class="n">online</span> <span class="p">/</span><span class="nb">enable-feature</span> <span class="p">/</span><span class="n">featurename</span><span class="err">:</span><span class="n">Microsoft-Windows-Subsystem-Linux</span> <span class="p">/</span><span class="n">all</span> <span class="p">/</span><span class="n">norestart</span>
 </code></pre></td></tr></table>
 </div>
 </div></li>
@@ -59,7 +59,7 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">dism</span><span class="p">.</span><span class="n">exe</span> <span class="p">/</span><span class="n">online</span> <span class="p">/</span><span class="nb">enable-feature</span> <span class="p">/</span><span class="n">featurename</span><span class="err">:</span><span class="n">Microsoft-Windows-Subsystem-Linux</span> <span class="p">/</span><span class="n">all</span> <span class="p">/</span><span class="n">nores</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">dism</span><span class="p">.</span><span class="n">exe</span> <span class="p">/</span><span class="n">online</span> <span class="p">/</span><span class="nb">enable-feature</span> <span class="p">/</span><span class="n">featurename</span><span class="err">:</span><span class="n">Microsoft-Windows-Subsystem-Linux</span> <span class="p">/</span><span class="n">all</span> <span class="p">/</span><span class="n">norestart</span>
 <span class="n">dism</span><span class="p">.</span><span class="n">exe</span> <span class="p">/</span><span class="n">online</span> <span class="p">/</span><span class="nb">enable-feature</span> <span class="p">/</span><span class="n">featurename</span><span class="err">:</span><span class="n">VirtualMachinePlatform</span> <span class="p">/</span><span class="n">all</span> <span class="p">/</span><span class="n">norestart</span>
 </code></pre></td></tr></table>
 </div>
@@ -131,7 +131,7 @@
 <pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">ubuntu</span> <span class="n">config</span> <span class="p">-</span><span class="n">-default-user</span> <span class="n">root</span>
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="四有关文章">（四）有关文章</h2>
+</div><h2 id="四有关文章">四、有关文章</h2>
 <ol>
 <li><code>WSL</code>的安装：<a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10" target="_blank" rel="noopener noreffer">适用于 Linux 的 Windows 子系统安装指南 (Windows 10)</a></li>
 <li>有关比较 <code>WSL 2</code> 和<code> WSL 1</code> 的详细信息：<a href="https://docs.microsoft.com/zh-cn/windows/wsl/compare-versions" target="_blank" rel="noopener noreffer">比较 WSL 2 和 WSL 1</a></li>

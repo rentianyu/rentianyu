@@ -24,7 +24,7 @@
     以管理员身份打开 PowerShell 并运行：
 
     ```powershell
-    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /nores
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     ```
 
 2.  去微软商店搜索`Linux`，安装自己适用的系统
@@ -42,7 +42,7 @@
     以管理员身份打开 PowerShell 并运行：
 
 ```powershell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /nores
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
@@ -101,7 +101,7 @@ wsl --list --verbose
 ubuntu config --default-user root
 ```
 
-## （四）有关文章
+## 四、有关文章
 
 1.  `WSL`的安装：[适用于 Linux 的 Windows 子系统安装指南 (Windows 10)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 2.  有关比较 `WSL 2` 和` WSL 1` 的详细信息：[比较 WSL 2 和 WSL 1](https://docs.microsoft.com/zh-cn/windows/wsl/compare-versions) 
