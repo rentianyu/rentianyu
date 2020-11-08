@@ -117,7 +117,7 @@ ubuntu config --default-user root
 wsl -l -v
 ```
 
-![wsl信息](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201108170133354.png)
+![wsl信息](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201108171658356.png)
 
 ​	`NAME`对应的值便是已安装的子系统名称
 
