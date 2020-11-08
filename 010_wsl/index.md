@@ -81,17 +81,19 @@ wsl --set-default-version 2
 
 ### （二）设置默认用户为root
 
-1.  获取已安装的子系统名称
+1.  先获取已安装的子系统名称和版本
 
     以管理员身份打开 PowerShell 并运行：
 
 ```powershell
-wsl --list --verbose
+wsl -l -v
 ```
 
-![wsl信息](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201107123618899.png)
+![wsl信息](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201108170133354.png)
 
 ​	`NAME`对应的值便是已安装的子系统名称
+
+​	`VERSION`是对应系统的`WSL`版本
 
 2.  设置默认用户为root
 
@@ -100,6 +102,37 @@ wsl --list --verbose
 ```powershell
 ubuntu config --default-user root
 ```
+
+{{< admonition tip "注意"  >}}
+上述命令中，`ubuntu`是第一步中获取的`NAME`值
+{{< /admonition >}}
+
+### （三）`WSL 1`和`WSL 2`版本的无缝转换
+
+1.  先获取已安装的子系统名称和版本
+
+    以管理员身份打开 PowerShell 并运行：
+
+```powershell
+wsl -l -v
+```
+
+![wsl信息](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201108170133354.png)
+
+​	`NAME`对应的值便是已安装的子系统名称
+
+​	`VERSION`是对应系统的`WSL`版本
+
+2.  设置对应系统的版本
+
+```powershell
+wsl --set-version ubuntu 2
+```
+![wsl版本转换](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201108170750853.png)
+
+{{< admonition tip "注意"  >}}
+上述命令中，是以我的`Ubuntu`系统为例，把`WSL`版本换为二代，两版本转换的前提是`WSL 2`版本环境已正确配置 {{< /admonition >}}
+
 
 ## 四、有关文章
 
