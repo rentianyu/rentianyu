@@ -19,13 +19,14 @@
 <ol>
 <li>
 <p>分析网页网址</p>
-<p>​	比如，我想爬取风景类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。</p>
+<p>​	比如，我想爬取 <a href="http://www.netbian.com/fengjing" target="_blank" rel="noopener noreffer">风景</a> 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。</p>
 <p>1.1 找到图片分类网址</p>
-<p><code>http://www.netbian.com/fengjing/</code></p>
+<p><code>http://www.netbian.com/fengjing</code></p>
 <p></p>
 <p>1.2 找到图片介绍地址和真实地址</p>
 <p>图片介绍地址：<code>http://www.netbian.com/desk/23006.htm</code></p>
 <p>图片真实地址：<code>http://img.netbian.com/file/2020/1108/1da1eab002604a8adcc33d8103b5758d.jpg</code></p>
+<p></p>
 </li>
 <li>
 <p>确定爬取流程</p>

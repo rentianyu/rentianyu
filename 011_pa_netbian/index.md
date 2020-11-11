@@ -13,25 +13,33 @@
 
 1.  分析网页网址
 
-    ​	比如，我想爬取风景类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。
+    ​	比如，我想爬取 [风景](http://www.netbian.com/fengjing) 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。
 
     1.1 找到图片分类网址
 
-    `http://www.netbian.com/fengjing/`
+    `http://www.netbian.com/fengjing`
 
-    ![image-20201111104928714](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png)
+    ![彼岸桌面-风景分类](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png)
+
+    
 
     1.2 找到图片介绍地址和真实地址
 
     图片介绍地址：`http://www.netbian.com/desk/23006.htm`
 
-    图片真实地址：`http://img.netbian.com/file/2020/1108/1da1eab002604a8adcc33d8103b5758d.jpg`![image-20201111105226256](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png)
+    图片真实地址：`http://img.netbian.com/file/2020/1108/1da1eab002604a8adcc33d8103b5758d.jpg`
+
+    
+
+    ![彼岸桌面-单图](https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png)
 
 2.  确定爬取流程
 
     2.1 风景分类界面获取介绍图片代号
 
     2.2 图片介绍界面获取图片真实地址
+
+
 
 ## 三、写脚本
 
