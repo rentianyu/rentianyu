@@ -13,7 +13,7 @@
 
 1.  分析网页网址
 
-    ​	比如，我想爬取 [风景](http://www.netbian.com/fengjing) 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。
+    ​	比如，我想爬取 [风景](http://www.netbian.com/fengjing) 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。
 
     1.1 找到图片分类网址
 
@@ -109,7 +109,7 @@ drive.mount('/content/drive')
 
 ## 五、成品及反思
 
--   成品：[彼岸桌面([netbian.com](http://netbian.com/))_风景图片打包.zip](https://file.beita.workers.dev/2:/%E5%85%B6%E4%BB%96%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6/)
+-   成品：[彼岸桌面(http://netbian.com)_风景图片打包.zip](https://file.beita.workers.dev/2:/%E5%85%B6%E4%BB%96%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6)
 
 -   此次抓取中，有几点需要注意，
 

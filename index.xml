@@ -7,6 +7,65 @@
             <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
             <atom:link href="https://xiao_beita.gitee.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>PowerShell的美化</title>
+    <link>https://xiao_beita.gitee.io/012_powershell/</link>
+    <pubDate>Thu, 12 Nov 2020 16:28:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://xiao_beita.gitee.io/012_powershell/</guid>
+    <description><![CDATA[<h2 id="一说明">一、说明</h2>
+<p>​	PowerShell的美化从两方面入手，一是命令行方面，这个安装 <a href="https://github.com/JanDeDobbeleer/oh-my-posh" target="_blank" rel="noopener noreffer">oh-my-posh</a> 来解决，另一个就是字体和配色，按照我的设置解决。</p>
+<p>​	上个图</p>
+<p></p>
+<h2 id="二oh-my-posh的安装与配置">二、<code>oh-my-posh</code>的安装与配置</h2>
+<h3 id="21-安装-oh-my-posh-和-oh-my-posh-模块">2.1 安装 <code>oh-my-posh</code> 和 <code>oh-my-posh</code> 模块</h3>
+<p>​	<code>PowerShell</code>运行以下命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Install-Module</span> <span class="n">posh-git</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span>
+<span class="nb">Install-Module</span> <span class="n">oh-my-posh</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="22-修改powershell配置文件">2.2 修改<code>PowerShell</code>配置文件</h3>
+<p>​	<code>PowerShell</code>运行以下命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># 如果之前没有配置文件，就新建一个 PowerShell 配置文件</span>
+<span class="k">if</span> <span class="p">(!(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="nv">$PROFILE</span> <span class="p">))</span> <span class="p">{</span> <span class="nb">New-Item</span> <span class="n">-Type</span> <span class="n">File</span> <span class="n">-Path</span> <span class="nv">$PROFILE</span> <span class="n">-Force</span> <span class="p">}</span>
+<span class="c"># 修改配置文件</span>
+<span class="nb">echo </span><span class="s1">&#39;Import-Module posh-git 
+</span><span class="s1">Import-Module oh-my-posh 
+</span><span class="s1">Set-Theme Star
+</span><span class="s1">cd ~\Desktop
+</span><span class="s1">&#39;</span> <span class="p">&gt;</span> <span class="nv">$PROFILE</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="三字体和配色">三、字体和配色</h2>
+<h3 id="31-使用更纱黑体">3.1 使用更纱黑体</h3>
+<p>​	<a href="https://www.microsoft.com/store/productId/9MW0M424NCZ7" target="_blank" rel="noopener noreffer">微软商店</a> 或者 <a href="https://github.com/be5invis/Sarasa-Gothic" target="_blank" rel="noopener noreffer">GitHub</a> 下载更纱黑体。然后右击<code>PowerShell</code>窗口的左上角图标，点击属性，如下图。</p>
+<p>​	</p>
+<p>​	再按下图启用字体。</p>
+<p>​	</p>
+<h3 id="32-修改背景色">3.2 修改背景色</h3>
+<p>​	如下图修改背景色</p>
+<p>​	</p>
+<p>​	最好将布局也改一下</p>
+<p>​	</p>
+]]></description>
+</item><item>
     <title>记一次爬取图片的历程</title>
     <link>https://xiao_beita.gitee.io/011_pa_netbian/</link>
     <pubDate>Wed, 11 Nov 2020 10:35:19 &#43;0800</pubDate>
@@ -19,7 +78,7 @@
 <ol>
 <li>
 <p>分析网页网址</p>
-<p>​	比如，我想爬取 <a href="http://www.netbian.com/fengjing" target="_blank" rel="noopener noreffer">风景</a> 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。</p>
+<p>​	比如，我想爬取 <a href="http://www.netbian.com/fengjing" target="_blank" rel="noopener noreffer">风景</a> 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。</p>
 <p>1.1 找到图片分类网址</p>
 <p><code>http://www.netbian.com/fengjing</code></p>
 <p></p>
@@ -154,7 +213,7 @@ drive.mount<span class="o">(</span><span class="s1">&#39;/content/drive&#39;</sp
 <h2 id="五成品及反思">五、成品及反思</h2>
 <ul>
 <li>
-<p>成品：[彼岸桌面(<a href="http://netbian.com/" target="_blank" rel="noopener noreffer">netbian.com</a>)_风景图片打包.zip](<a href="https://file.beita.workers.dev/2:/%E5%85%B6%E4%BB%96%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6/">https://file.beita.workers.dev/2:/%E5%85%B6%E4%BB%96%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6/</a>)</p>
+<p>成品：<a href="https://file.beita.workers.dev/2:/%E5%85%B6%E4%BB%96%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6" target="_blank" rel="noopener noreffer">彼岸桌面(http://netbian.com)_风景图片打包.zip</a></p>
 </li>
 <li>
 <p>此次抓取中，有几点需要注意，</p>
@@ -1475,68 +1534,5 @@ cscript ospp.vbs /act
 </ul>
 <hr>
 <hr>]]></description>
-</item><item>
-    <title>Ubuntu定时任务之crontab</title>
-    <link>https://xiao_beita.gitee.io/002_cron/</link>
-    <pubDate>Tue, 04 Aug 2020 15:31:47 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/002_cron/</guid>
-    <description><![CDATA[<p><strong>Ubuntu 定时任务</strong></p>
-<h2 id="1-crontab有关命令">1. <code>crontab</code>有关命令</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 重启cron服务</span>
-service cron restart
-
-<span class="c1"># 编辑定时任务（重启cron服务才会生效）</span>
-crontab –e
-
-<span class="c1"># 列出定时任务</span>
-crontab –l
-</code></pre></td></tr></table>
-</div>
-</div><hr>
-<hr>
-<h2 id="2-定时任务语法">2. 定时任务语法</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">minute hour day month week <span class="nb">command</span>
-  分    时   日   月    周   命令
-  
-<span class="c1"># 举例：每天8点执行命令</span>
-<span class="m">00</span> <span class="m">08</span> * * * sh /root/hello.sh
-</code></pre></td></tr></table>
-</div>
-</div><p>说明：</p>
-<p><code>minute</code>： 表示分钟，可以是从 0 到 59 之间的任何整数</p>
-<p><code>hour</code>：表示小时，可以是从 0 到 23 之间的任何整数</p>
-<p><code>day</code>：表示日期，可以是从 1 到 31 之间的任何整数</p>
-<p><code>month</code>：表示月份，可以是从 1 到 12 之间的任何整数</p>
-<p><code>week</code>：表示星期几，可以是从 0 到 7 之间的任何整数，这里的 0 或 7 代表星期日</p>
-<p><code>command</code>：要执行的命令，可以是系统命令，也可以是自己编写的脚本文件</p>
-<blockquote>
-<p>在以上各个字段中，还可以使用以下特殊字符：</p>
-</blockquote>
-<p><code>星号（\*）</code>：代表所有可能的值，例如 month 字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作</p>
-<p><code>逗号（,）</code>：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</p>
-<p><code>中杠（-）</code>：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
-<p><code>正斜线（/）</code>：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用， 例如`/10，如果用在 minute 字段，表示每十分钟执行一次</p>]]></description>
 </item></channel>
 </rss>

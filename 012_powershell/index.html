@@ -5,37 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>记一次爬取图片的历程 - 小贝塔</title><meta name="Description" content="小贝塔网站"><meta property="og:title" content="记一次爬取图片的历程" />
-<meta property="og:description" content="" />
+        <title>PowerShell的美化 - 小贝塔</title><meta name="Description" content="小贝塔网站"><meta property="og:title" content="PowerShell的美化" />
+<meta property="og:description" content="一、说明 ​ PowerShell的美化从两方面入手，一是命令行方面，这个安装 oh-my-posh 来解决，另一个就是字体和配色，按照我的设置解决。 ​ 上个图 二、oh" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xiao_beita.gitee.io/011_pa_netbian/" />
+<meta property="og:url" content="https://xiao_beita.gitee.io/012_powershell/" />
 <meta property="og:image" content="https://xiao_beita.gitee.io/logo.png"/>
-<meta property="article:published_time" content="2020-11-11T10:35:19+08:00" />
-<meta property="article:modified_time" content="2020-11-11T10:35:19+08:00" />
+<meta property="article:published_time" content="2020-11-12T16:28:35+08:00" />
+<meta property="article:modified_time" content="2020-11-12T16:28:35+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://xiao_beita.gitee.io/logo.png"/>
 
-<meta name="twitter:title" content="记一次爬取图片的历程"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="PowerShell的美化"/>
+<meta name="twitter:description" content="一、说明 ​ PowerShell的美化从两方面入手，一是命令行方面，这个安装 oh-my-posh 来解决，另一个就是字体和配色，按照我的设置解决。 ​ 上个图 二、oh"/>
 <meta name="application-name" content="小贝塔">
 <meta name="apple-mobile-web-app-title" content="小贝塔"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xiao_beita.gitee.io/011_pa_netbian/" /><link rel="prev" href="https://xiao_beita.gitee.io/010_wsl/" /><link rel="next" href="https://xiao_beita.gitee.io/012_powershell/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xiao_beita.gitee.io/012_powershell/" /><link rel="prev" href="https://xiao_beita.gitee.io/011_pa_netbian/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "记一次爬取图片的历程",
+        "headline": "PowerShell的美化",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/xiao_beita.gitee.io\/011_pa_netbian\/"
+            "@id": "https:\/\/xiao_beita.gitee.io\/012_powershell\/"
         },"image": [{
                             "@type": "ImageObject",
                             "url": "https:\/\/xiao_beita.gitee.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "爬虫, 图片","wordcount":  1099 ,
-        "url": "https:\/\/xiao_beita.gitee.io\/011_pa_netbian\/","datePublished": "2020-11-11T10:35:19+08:00","dateModified": "2020-11-11T10:35:19+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "PowerShell, oh-my-posh","wordcount":  315 ,
+        "url": "https:\/\/xiao_beita.gitee.io\/012_powershell\/","datePublished": "2020-11-12T16:28:35+08:00","dateModified": "2020-11-12T16:28:35+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -114,10 +114,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">记一次爬取图片的历程</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">PowerShell的美化</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://xiao_beita.gitee.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>小贝塔</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%95%99%E7%A8%8B/"><i class="far fa-folder fa-fw"></i>教程</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-11-11">2020-11-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1099 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/011_pa_netbian/" class="leancloud_visitors" data-flag-title="记一次爬取图片的历程">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-11-12">2020-11-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 315 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/012_powershell/" class="leancloud_visitors" data-flag-title="PowerShell的美化">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -127,188 +127,109 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#一前言">一、前言</a></li>
-    <li><a href="#二网站分析与确定爬取流程">二、网站分析与确定爬取流程</a></li>
-    <li><a href="#三写脚本">三、写脚本</a></li>
-    <li><a href="#四下载图片">四、下载图片</a></li>
-    <li><a href="#五成品及反思">五、成品及反思</a></li>
+    <li><a href="#一说明">一、说明</a></li>
+    <li><a href="#二oh-my-posh的安装与配置">二、<code>oh-my-posh</code>的安装与配置</a>
+      <ul>
+        <li><a href="#21-安装-oh-my-posh-和-oh-my-posh-模块">2.1 安装 <code>oh-my-posh</code> 和 <code>oh-my-posh</code> 模块</a></li>
+        <li><a href="#22-修改powershell配置文件">2.2 修改<code>PowerShell</code>配置文件</a></li>
+      </ul>
+    </li>
+    <li><a href="#三字体和配色">三、字体和配色</a>
+      <ul>
+        <li><a href="#31-使用更纱黑体">3.1 使用更纱黑体</a></li>
+        <li><a href="#32-修改背景色">3.2 修改背景色</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="一前言">一、前言</h2>
-<p>​		<a href="http://www.netbian.com" target="_blank" rel="noopener noreffer">彼岸桌面</a> 是一个很好的收集壁纸的网站，壁纸高清，我很喜欢，并且还赞助了会员。这次的爬取对象就是它了。</p>
-<p>​		这次的流程是先写爬虫脚本，然后放在<code>VPS</code>上爬取地址，最后用<code>COLAB</code>下载。</p>
-<h2 id="二网站分析与确定爬取流程">二、网站分析与确定爬取流程</h2>
-<ol>
-<li>
-<p>分析网页网址</p>
-<p>​	比如，我想爬取 <a href="http://www.netbian.com/fengjing" target="_blank" rel="noopener noreffer">风景</a> 类的壁纸，先进入风景专区，然后点击一张图片的地址，发现此时的图片预览图是原图！！！那就可以确定爬取流程了。先以一张图为例。</p>
-<p>1.1 找到图片分类网址</p>
-<p><code>http://www.netbian.com/fengjing</code></p>
+            </div><div class="content" id="content"><h2 id="一说明">一、说明</h2>
+<p>​	PowerShell的美化从两方面入手，一是命令行方面，这个安装 <a href="https://github.com/JanDeDobbeleer/oh-my-posh" target="_blank" rel="noopener noreffer">oh-my-posh</a> 来解决，另一个就是字体和配色，按照我的设置解决。</p>
+<p>​	上个图</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png"
-        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png 2x"
+        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112171542446.png"
+        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112171542446.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112171542446.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112171542446.png 2x"
         data-sizes="auto"
-        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111104928714.png"
-        title="彼岸桌面-风景分类" /></p>
-<p>1.2 找到图片介绍地址和真实地址</p>
-<p>图片介绍地址：<code>http://www.netbian.com/desk/23006.htm</code></p>
-<p>图片真实地址：<code>http://img.netbian.com/file/2020/1108/1da1eab002604a8adcc33d8103b5758d.jpg</code></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png"
-        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png 2x"
-        data-sizes="auto"
-        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111105226256.png"
-        title="彼岸桌面-单图" /></p>
-</li>
-<li>
-<p>确定爬取流程</p>
-<p>2.1 风景分类界面获取介绍图片代号</p>
-<p>2.2 图片介绍界面获取图片真实地址</p>
-</li>
-</ol>
-<h2 id="三写脚本">三、写脚本</h2>
-<p>​	以下为获取<a href="http://www.netbian.com/fengjing/index_2.htm" target="_blank" rel="noopener noreffer">风景</a>下图片链接的<code>bash</code>脚本，第一页的图片请单独处理。</p>
+        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112171542446.png"
+        title="powershell-show" /></p>
+<h2 id="二oh-my-posh的安装与配置">二、<code>oh-my-posh</code>的安装与配置</h2>
+<h3 id="21-安装-oh-my-posh-和-oh-my-posh-模块">2.1 安装 <code>oh-my-posh</code> 和 <code>oh-my-posh</code> 模块</h3>
+<p>​	<code>PowerShell</code>运行以下命令</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
-</span><span class="cp"></span><span class="c1"># 以下代码只处理第2-203页，第一页的图片请自行处理</span>
-<span class="c1"># 定义种类kind为fengjing</span>
-<span class="nv">kind</span><span class="o">=</span>fengjing
-<span class="c1"># 定义页码page为2 3 .. 203</span>
-<span class="k">for</span> page in <span class="k">$(</span>seq <span class="m">2</span> 203<span class="k">)</span>
-<span class="k">do</span>
-	<span class="c1"># 拼接种类页面链接kind_link</span>
-	<span class="nv">kind_link</span><span class="o">=</span><span class="s2">&#34;http://www.netbian.com/</span><span class="nv">$kind</span><span class="s2">/index_</span><span class="nv">$page</span><span class="s2">.htm&#34;</span>
-	<span class="c1"># 获取该页所有图片编号pic_num_list</span>
-	<span class="nv">pic_num_list</span><span class="o">=</span><span class="k">$(</span>wget -qO- <span class="nv">$kind_link</span> <span class="p">|</span> grep -aoP <span class="s2">&#34;(?&lt;=href=\&#34;/desk/).*?(?=.htm)&#34;</span><span class="k">)</span>
-	<span class="c1"># 定义图片编号pic_num</span>
-	<span class="k">for</span> pic_num in <span class="nv">$pic_num_list</span>
-	<span class="k">do</span>
-		<span class="c1"># 拼接图片信息页面链接pic_info_link</span>
-        <span class="nv">pic_info_link</span><span class="o">=</span>http://www.netbian.com/desk/<span class="nv">$pic_num</span>.htm
-        <span class="c1"># 获取图片地址pic_link</span>
-        <span class="nv">pic_link</span><span class="o">=</span><span class="k">$(</span>wget -qO- <span class="nv">$pic_info_link</span> <span class="p">|</span> grep -aoP -m <span class="m">1</span> <span class="s2">&#34;http://img.netbian.com/file/20.*jpg(?=\&#34; alt)&#34;</span><span class="k">)</span>
-        <span class="c1"># 打印图片地址</span>
-        <span class="nb">echo</span> <span class="nv">$pic_link</span>
-        <span class="c1"># 保存图片地址到文件</span>
-        <span class="nb">echo</span> <span class="nv">$pic_link</span> &gt;&gt; <span class="si">${</span><span class="nv">kind</span><span class="si">}</span>_down.txt
-    <span class="k">done</span>
-<span class="k">done</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Install-Module</span> <span class="n">posh-git</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span>
+<span class="nb">Install-Module</span> <span class="n">oh-my-posh</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span>
 </code></pre></td></tr></table>
 </div>
-</div><div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>注意<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li><code>grep -a</code>可以查找二进制中的文字</li>
-<li><code>grep -m 1</code>只保留第一次匹配</li>
-<li>用<code>wget -qO-</code>而不用<code>curl -s</code>的原因是之后的<code>grep -m 1</code>查找到之后会堵塞通道造成错误</li>
-</ul></div>
-        </div>
-    </div>
-<h2 id="四下载图片">四、下载图片</h2>
-<p>​	因为完全下载所需的空间需要几G之上，我的<code>VPS</code>不足以持，因此就用到了Google家的<code>COLAB</code></p>
-<ol>
-<li>
-<p>将爬取的下载链接上传到 <a href="https://drive.google.com" target="_blank" rel="noopener noreffer">谷歌网盘</a> 的某个目录</p>
-</li>
-<li>
-<p>登录 <a href="https://colab.research.google.com" target="_blank" rel="noopener noreffer">COLAB</a> 并新建笔记本，按照下图配置，然后依次运行即可</p>
-</li>
-</ol>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>注意<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><code>COLAB</code> 中 <code>!</code>开头表示运行<code>SHELL</code>命令</div>
-        </div>
-    </div>
+</div><h3 id="22-修改powershell配置文件">2.2 修改<code>PowerShell</code>配置文件</h3>
+<p>​	<code>PowerShell</code>运行以下命令</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 挂载谷歌硬盘</span>
-from google.colab import drive
-drive.mount<span class="o">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="o">)</span>
-<span class="c1"># 安装aria2</span>
-!sudo apt install uget aria2
-
-<span class="c1"># cd 到文件夹</span>
-!cd <span class="s2">&#34;/content/drive/Shared drives/1/fj&#34;</span>
-
-!aria2c -i fengjing_down.txt
-
-!zip fengjing.zip *
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># 如果之前没有配置文件，就新建一个 PowerShell 配置文件</span>
+<span class="k">if</span> <span class="p">(!(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="nv">$PROFILE</span> <span class="p">))</span> <span class="p">{</span> <span class="nb">New-Item</span> <span class="n">-Type</span> <span class="n">File</span> <span class="n">-Path</span> <span class="nv">$PROFILE</span> <span class="n">-Force</span> <span class="p">}</span>
+<span class="c"># 修改配置文件</span>
+<span class="nb">echo </span><span class="s1">&#39;Import-Module posh-git 
+</span><span class="s1">Import-Module oh-my-posh 
+</span><span class="s1">Set-Theme Star
+</span><span class="s1">cd ~\Desktop
+</span><span class="s1">&#39;</span> <span class="p">&gt;</span> <span class="nv">$PROFILE</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
+</div><h2 id="三字体和配色">三、字体和配色</h2>
+<h3 id="31-使用更纱黑体">3.1 使用更纱黑体</h3>
+<p>​	<a href="https://www.microsoft.com/store/productId/9MW0M424NCZ7" target="_blank" rel="noopener noreffer">微软商店</a> 或者 <a href="https://github.com/be5invis/Sarasa-Gothic" target="_blank" rel="noopener noreffer">GitHub</a> 下载更纱黑体。然后右击<code>PowerShell</code>窗口的左上角图标，点击属性，如下图。</p>
+<p>​	<img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111135330301.png"
-        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111135330301.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111135330301.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111135330301.png 2x"
+        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170321990.png"
+        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170321990.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170321990.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170321990.png 2x"
         data-sizes="auto"
-        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201111135330301.png"
-        title="colab" /></p>
-<h2 id="五成品及反思">五、成品及反思</h2>
-<ul>
-<li>
-<p>成品：<a href="https://file.beita.workers.dev/2:/%E5%85%B6%E4%BB%96%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6" target="_blank" rel="noopener noreffer">彼岸桌面(http://netbian.com)_风景图片打包.zip</a></p>
-</li>
-<li>
-<p>此次抓取中，有几点需要注意，</p>
-</li>
-</ul>
-<ol>
-<li>下载网页源码之后可以找到文字，但用<code>grep</code>找不到，就是二进制文件的问题，加参数<code>-a</code>即可。</li>
-<li><code>grep</code>找到多个匹配，加参数<code>-m </code>即可只保留第一个。</li>
-<li><code>curl</code>和<code>grep</code>连用有时会导致通道堵塞，使用<code>wget -qO-</code>全下载之后再<code>grep</code>即可。</li>
-<li><code>COLAB</code>中使用shell命令极大的增加了能力，并且可以挂载谷歌网盘，极大得方便文件的传输。</li>
-</ol></div>
+        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170321990.png"
+        title="powershell-属性" /></p>
+<p>​	再按下图启用字体。</p>
+<p>​	<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170937762.png"
+        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170937762.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170937762.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170937762.png 2x"
+        data-sizes="auto"
+        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170937762.png"
+        title="powershell-字体" /></p>
+<h3 id="32-修改背景色">3.2 修改背景色</h3>
+<p>​	如下图修改背景色</p>
+<p>​	<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170716244.png"
+        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170716244.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170716244.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170716244.png 2x"
+        data-sizes="auto"
+        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170716244.png"
+        title="powershell-背景色" /></p>
+<p>​	最好将布局也改一下</p>
+<p>​	<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170835550.png"
+        data-srcset="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170835550.png, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170835550.png 1.5x, https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170835550.png 2x"
+        data-sizes="auto"
+        alt="https://gitee.com/xiao_beita/tuchuang/raw/master/img/image-20201112170835550.png"
+        title="powershell-布局" /></p>
+</div>
 
 <div>
     
@@ -334,7 +255,7 @@ drive.mount<span class="o">(</span><span class="s1">&#39;/content/drive&#39;</sp
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-11-11</span>
+                <span>更新于 2020-11-12</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -347,14 +268,13 @@ drive.mount<span class="o">(</span><span class="s1">&#39;/content/drive&#39;</sp
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E7%88%AC%E8%99%AB/">爬虫</a>,&nbsp;<a href="/tags/%E5%9B%BE%E7%89%87/">图片</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/powershell/">PowerShell</a>,&nbsp;<a href="/tags/oh-my-posh/">oh-my-posh</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/010_wsl/" class="prev" rel="prev" title="WSL (微软Linux子系统) 的安装与使用"><i class="fas fa-angle-left fa-fw"></i>WSL (微软Linux子系统) 的安装与使用</a>
-            <a href="/012_powershell/" class="next" rel="next" title="PowerShell的美化">PowerShell的美化<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/011_pa_netbian/" class="prev" rel="prev" title="记一次爬取图片的历程"><i class="fas fa-angle-left fa-fw"></i>记一次爬取图片的历程</a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
