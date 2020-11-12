@@ -11,7 +11,7 @@
 
 ## 二、`oh-my-posh`的安装与配置
 
-### 2.1 安装 `oh-my-posh` 和 `oh-my-posh` 模块
+### 2.1 安装 `posh-git` 和 `oh-my-posh` 模块
 
 ​	`PowerShell`运行以下命令
 

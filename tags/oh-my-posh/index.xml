@@ -15,7 +15,7 @@
 <p>​	上个图</p>
 <p></p>
 <h2 id="二oh-my-posh的安装与配置">二、<code>oh-my-posh</code>的安装与配置</h2>
-<h3 id="21-安装-oh-my-posh-和-oh-my-posh-模块">2.1 安装 <code>oh-my-posh</code> 和 <code>oh-my-posh</code> 模块</h3>
+<h3 id="21-安装-posh-git-和-oh-my-posh-模块">2.1 安装 <code>posh-git</code> 和 <code>oh-my-posh</code> 模块</h3>
 <p>​	<code>PowerShell</code>运行以下命令</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
