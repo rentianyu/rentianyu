@@ -5,22 +5,32 @@
         <description>Windows - 标签 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
             <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 26 Oct 2020 13:19:30 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/tags/windows/" rel="self" type="application/rss+xml" /><item>
-    <title>Windows系统右键增加新建MrakDown</title>
+    <title>Windows系统右键增加新建MrakDown和sh</title>
     <link>https://xiao_beita.gitee.io/008_win_right_md/</link>
     <pubDate>Mon, 26 Oct 2020 13:19:30 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/008_win_right_md/</guid>
-    <description><![CDATA[<h2 id="一保证已安装typora">一、保证已安装Typora</h2>
+    <description><![CDATA[<h2 id="一保证已安装typora">一、保证已安装<code>Typora</code></h2>
+<ul>
+<li><a href="https://typora.io" target="_blank" rel="noopener noreffer">Typora官网</a></li>
+</ul>
 <h2 id="二新建reg文件并写入以下内容">二、新建<code>.reg</code>文件并写入以下内容</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">Windows</span> <span class="n">Registry</span> <span class="n">Editor</span> <span class="n">Version</span> <span class="n">5</span><span class="p">.</span><span class="n">00</span>
@@ -30,6 +40,13 @@
 <span class="s2">&#34;NullFile&#34;</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
 <span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\</span><span class="n">Typora</span><span class="p">.</span><span class="n">exe</span><span class="p">]</span>
 <span class="p">@=</span><span class="s2">&#34;Markdown&#34;</span>
+
+<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">sh</span><span class="p">]</span>
+<span class="p">@=</span><span class="s2">&#34;notepad3.exe&#34;</span>
+<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">sh</span><span class="p">\</span><span class="n">ShellNew</span><span class="p">]</span>
+<span class="s2">&#34;NullFile&#34;</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
+<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\</span><span class="n">notepad3</span><span class="p">.</span><span class="n">exe</span><span class="p">]</span>
+<span class="p">@=</span><span class="s2">&#34;sh&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="三运行以上文件">三、运行以上文件</h2>
@@ -44,8 +61,15 @@
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/004_activate/</guid>
-    <description><![CDATA[<p><strong>使用命令行激活 Windows 系统和 Office</strong></p>
-<h2 id="1-kms激活windows系统推荐数字激活">1. kms激活Windows系统，(推荐数字激活)</h2>
+    <description><![CDATA[<h2 id="一kms激活windows系统推荐">一、kms激活Windows系统，(推荐)</h2>
+<h3 id="11-数字激活windows-10">1.1 数字激活<code>Windows 10</code></h3>
+<ul>
+<li>下载 <a href="https://cmwtat.cloudmoe.com" target="_blank" rel="noopener noreffer">云萌 Windows 10 激活工具</a> 激活</li>
+</ul>
+<blockquote>
+<p>参考网址：<a href="https://github.com/TGSAN/CMWTAT_Digital_Edition" target="_blank" rel="noopener noreffer">CMWTAT_Digital_Edition</a></p>
+</blockquote>
+<h3 id="12-kms激活windows系统">1.2 <code>kms</code>激活<code>Windows</code>系统</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -58,9 +82,13 @@ slmgr /skms kms.v0v.bid
 slmgr /ato
 </code></pre></td></tr></table>
 </div>
-</div><hr>
-<hr>
-<h2 id="2-激活默认安装的64位office适用于批量版的2010201320162019">2. 激活默认安装的64位Office：适用于批量版的2010;2013;2016;2019</h2>
+</div><blockquote>
+<p>参考网址：<a href="https://v0v.bid/kms.html" target="_blank" rel="noopener noreffer">Windows系统一句命令激活</a></p>
+</blockquote>
+<h2 id="二激活office">二、激活<code>Office</code></h2>
+<ul>
+<li>只适用于默认安装位置的64位版本的2010、2013、2016、2019、365版本</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -75,14 +103,9 @@ cscript ospp.vbs /sethst:kms.v0v.bid
 cscript ospp.vbs /act
 </code></pre></td></tr></table>
 </div>
-</div><hr>
-<hr>
-<h2 id="3-想法来源和安装office地址">3. 想法来源和安装Office地址</h2>
-<blockquote>
-<p><a href="https://v0v.bid/kms.html" target="_blank" rel="noopener noreffer">Windows系统一句命令激活</a></p>
-</blockquote>
-<blockquote>
-<p><a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a> 注：部署批量版</p>
+</div><blockquote>
+<p>参考网址：<a href="https://v0v.bid/kms.html" target="_blank" rel="noopener noreffer">Windows系统一句命令激活</a>
+安装<code>Office</code>：<a href="https://otp.landian.vip" target="_blank" rel="noopener noreffer">Office Tool Plus</a></p>
 </blockquote>]]></description>
 </item></channel>
 </rss>
