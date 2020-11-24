@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Everything使用教程 - 小贝塔</title><meta name="Description" content="小贝塔网站"><meta property="og:title" content="Everything使用教程" />
+<meta property="og:description" content="本文由 简悦 SimpRead 转码， 原文地址 https://www.thisfaner.com/p/everything/ Everything🔗 Everything 安装好后，建议开启 Everything 服务 Everything 服务可以索引 NTFS 分卷和监控 USN 日志。 这将可以让 Everything 以标准用户方式运行" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xiao_beita.gitee.io/015_everything/" />
+<meta property="og:image" content="https://xiao_beita.gitee.io/logo.png"/>
+<meta property="article:published_time" content="2020-11-24T13:16:53+08:00" />
+<meta property="article:modified_time" content="2020-11-24T13:16:53+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://xiao_beita.gitee.io/logo.png"/>
+
+<meta name="twitter:title" content="Everything使用教程"/>
+<meta name="twitter:description" content="本文由 简悦 SimpRead 转码， 原文地址 https://www.thisfaner.com/p/everything/ Everything🔗 Everything 安装好后，建议开启 Everything 服务 Everything 服务可以索引 NTFS 分卷和监控 USN 日志。 这将可以让 Everything 以标准用户方式运行"/>
+<meta name="application-name" content="小贝塔">
+<meta name="apple-mobile-web-app-title" content="小贝塔"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://xiao_beita.gitee.io/015_everything/" /><link rel="prev" href="https://xiao_beita.gitee.io/014_linux_soft/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Everything使用教程",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/xiao_beita.gitee.io\/015_everything\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/xiao_beita.gitee.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "Everything, 技巧","wordcount":  3597 ,
+        "url": "https:\/\/xiao_beita.gitee.io\/015_everything\/","datePublished": "2020-11-24T13:16:53+08:00","dateModified": "2020-11-24T13:16:53+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/xiao_beita.gitee.io\/images\/avatar.png",
+                    "width":  873 ,
+                    "height":  873 
+                }},"author": {
+                "@type": "Person",
+                "name": "小贝塔"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="小贝塔"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>小贝塔</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://file.beita.workers.dev" rel="noopener noreffer" target="_blank"> 网盘 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="小贝塔"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>小贝塔</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://file.beita.workers.dev" title="" rel="noopener noreffer" target="_blank">网盘</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Everything使用教程</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://xiao_beita.gitee.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>小贝塔</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%95%99%E7%A8%8B/"><i class="far fa-folder fa-fw"></i>教程</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-11-24">2020-11-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3597 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 8 分钟&nbsp;<span id="/015_everything/" class="leancloud_visitors" data-flag-title="Everything使用教程">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#everything">Everything🔗</a></li>
+    <li><a href="#快捷键">快捷键🔗</a></li>
+    <li><a href="#筛选器">筛选器🔗</a></li>
+    <li><a href="#运行历史">运行历史🔗</a></li>
+    <li><a href="#搜索">搜索🔗</a></li>
+    <li><a href="#重复文件">重复文件🔗</a></li>
+    <li><a href="#与日期相关的搜索">与日期相关的搜索🔗</a></li>
+    <li><a href="#正则表达式">正则表达式🔗</a></li>
+    <li><a href="#搜索历史">搜索历史🔗</a></li>
+    <li><a href="#文件夹索引">文件夹索引🔗</a></li>
+    <li><a href="#文件列表">文件列表🔗</a></li>
+    <li><a href="#everything-高级设置-ini-文件">Everything 高级设置 (ini 文件)🔗</a>
+      <ul>
+        <li><a href="#实现搜索排序">实现搜索排序🔗</a></li>
+      </ul>
+    </li>
+    <li><a href="#补充">补充🔗</a>
+      <ul>
+        <li><a href="#语法">语法🔗</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><blockquote>
+<p>本文由 <a href="http://ksria.com/simpread/" target="_blank" rel="noopener noreffer">简悦 SimpRead</a> 转码， 原文地址 <a href="https://www.thisfaner.com/p/everything/">https://www.thisfaner.com/p/everything/</a></p>
+</blockquote>
+<h2 id="everything">Everything🔗</h2>
+<p>Everything 安装好后，建议开启 Everything 服务</p>
+<p>Everything 服务可以索引 NTFS 分卷和监控 USN 日志。</p>
+<p>这将可以让 Everything 以标准用户方式运行，而不用每次打开 Everything 都提示需要管理员权限 (UAC)。</p>
+<p>开启 Everything 服务： 工具 👉 选项 👉 常规 👉 取消以管理员运行，勾选 Everything 服务。</p>
+<blockquote>
+<p>同时可以选择开启 <strong>搜索历史</strong>。</p>
+</blockquote>
+<h2 id="快捷键">快捷键🔗</h2>
+<p>通过热键打开 Everything 窗口有以下三种方式：</p>
+<table>
+<thead>
+<tr>
+<th>方式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新建搜索口</td>
+<td>总是打开一个新建的 Everything 搜索窗口。</td>
+</tr>
+<tr>
+<td>打开搜索口</td>
+<td>打开已存在的 Everything 搜索窗口，否则创建新的 Everything 搜索窗口。</td>
+</tr>
+<tr>
+<td>切换搜索口</td>
+<td>隐藏前台的 Everything 搜索窗口，否则激活后台的 Everything 搜索窗口，否则创建新的 Everything 搜索窗口。</td>
+</tr>
+</tbody>
+</table>
+<p>禁用 Windows 默认热键，例如 Win + F：</p>
+<ul>
+<li>
+<p>进入开始菜单，打开 regedit。</p>
+</li>
+<li>
+<p>进入注册表编辑器，转到：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>创建新字符串值 <strong>DisabledHotkeys</strong>。</p>
+</li>
+<li>
+<p>设置 DisabledHotkeys 数据为您想要释放的字母，例如：<strong>F</strong>。</p>
+</li>
+<li>
+<p>重启计算机。</p>
+</li>
+<li>
+<p>在 Everything 中应用释放的热键 Win + F。</p>
+</li>
+</ul>
+<h2 id="筛选器">筛选器🔗</h2>
+<p>筛选器是预定义的搜索选项，例如音频和视频文件类型 。</p>
+<blockquote>
+<p>书签： 可以利用一下</p>
+</blockquote>
+<h2 id="运行历史">运行历史🔗</h2>
+<p>利用运行历史来 打开经常运行文件，Everything 记忆每次结果的运行次数。</p>
+<p>在搜索框中按 Enter 已选择最高运行次数的结果。</p>
+<p>手动设置运行次数 ： 选中一个文件或文件夹 👉 文件 👉 设置运行次数</p>
+<p>以运行次数排序，右键点击列表空白处并点击排序 -&gt; 运行次数。</p>
+<blockquote>
+<p>默认开启运行历史，可在选项中设置</p>
+</blockquote>
+<p>使用 <code>runcount:</code>来搜索指定运行次数或运行次数范围。</p>
+<p>搜索运行次数大于 100：</p>
+<p>搜索运行次数至少一次：</p>
+<p>搜索运行次数在 10 与 20 之间：</p>
+<p>设置默认以运行次数排序：</p>
+<ul>
+<li>在 _<strong>“Everything”</strong>* 中，打开__工具__菜单，点击__选项_ *。</li>
+<li>点击<strong>首页</strong>页面。</li>
+<li>更改<strong>排序方式</strong>为<strong>运行次数 (降序)</strong>。</li>
+<li>点击<strong>确定</strong>。</li>
+</ul>
+<h2 id="搜索">搜索🔗</h2>
+<p><strong>Everything 搜索语法和正则表达式语法的区别与联系：</strong></p>
+<p>正则表达式默认覆盖搜索语法。搜索操作符、通配符、宏、修饰符和函数无法工作于正则表达式模式。</p>
+<p>正则表达式必须从搜索菜单启用或使用搜索前缀 <code>regex:</code></p>
+<p>可以限定搜索某一分区，例如，搜索分区 <strong>D:</strong> 中文件和文件夹：</p>
+<p>搜索分区 D: 或 E: 上 mp3 文件：</p>
+<p>搜索分区 D: 上 jpg 或 png 文件：</p>
+<p>使用双引号以转义空格，搜索 <strong>C:\Program Files</strong> 下文件和文件夹：</p>
+<p>仅搜索文件：</p>
+<p>仅搜索文件夹：</p>
+<p>限定搜索单个文件夹（以它为父文件夹的子文件夹）：</p>
+<p>使用 \ 来搜索部分路径，例如，在以 <strong>documents</strong> 结尾文件夹中搜索文件和文件夹：</p>
+<p>使用空格以组合搜索条件，例如，在以 <strong>work</strong> 开头文件夹下搜索包含 <strong>order</strong> 的文件和文件夹：</p>
+<p>搜索大于 1MB 的文件：</p>
+<p>搜索 D:\music 下不包含 mp3 的文件夹：</p>
+<blockquote>
+<p>⭐ 利用 <strong>高级搜索</strong>框 来拼接最终的搜索字符串</p>
+</blockquote>
+<p><strong>指定文件目录搜索：</strong> 在检索条件中使用<code>\</code>，可以指定查找位置</p>
+<ul>
+<li><code>TDDOWNLOAD\ abc</code> 在所有 TDDOWNLOAD 文件夹下搜索包含 abc 字符的文件及文件夹</li>
+<li><code>TDDOWNLOAD\ *.jpg</code> 在所有 TDDOWNLOAD 文件夹下搜索 jpg 后缀文件</li>
+<li><code>F:\TDDOWNLOAD\ abc</code> 在 F:\TDDOWNLOAD \ 目录下搜索包含 abc 字符的文件及文件夹</li>
+<li><code>F:\TDDOWNLOAD\ *.jpg</code> 在 F:\TDDOWNLOAD \ 目录下搜索 jpg 后缀文件</li>
+</ul>
+<p><strong>排除指定目录：</strong> 使用 <code>!</code> （非）排除</p>
+<ul>
+<li>排除指定目录：<code>!绝对路径\</code></li>
+<li>排除指定子目录：<code>!子目录名称\</code></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">!C:\*Windows* !?:\$RECYCLE.BIN* file:*.exe|*.lnk|*.ahk|*.bat|*.cmd !D:\Scoop\Applications\shims 
+!D:\Scoop\Applications\shims\  
+
+操作符: 
+  space  与 (AND)
+  |  或 (OR)
+  !  非 (NOT)
+  &lt; &gt;  分组
+  &#34; &#34;  搜索引号内的词组.
+
+修饰符：
+filelist:&lt;fn1|fn2|...&gt;  搜索 文件名列表 中的文件.
+type:&lt;type&gt;  搜索指定的文件类型的文件和文件夹
+file:  仅匹配文件.
+
+函数：
+attrib:&lt;attributes&gt;  搜索指定的文件属性的文件和文件夹.
+attribdupe:  搜索含有相同属性的文件和文件夹.
+child:&lt;filename&gt;  搜索包含匹配文件名文件或文件夹的文件夹。
+attributes:&lt;attributes&gt;  搜索指定的文件属性的文件和文件夹.
+parent:&lt;path&gt;  搜索指定路径下的文件和文件夹 (不包含子文件夹).
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>Scoop 安装的程序的最新版都在 current 快捷方式下，并且旧版中的 exe 文件仍然保存，这样对 RunAny 会造成问题</p>
+<ul>
+<li>思路一： 通过目录限定。步骤复杂，并且还需解决软链接带来的问题</li>
+<li>思路二： 让其只选择日期最新的 exe （尝试了一下奴婢实现不了）</li>
+<li>思路三： 求大佬教我解决方法</li>
+</ul>
+</blockquote>
+<p><strong>多关键词搜索示例：</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">123 abc            搜索包含123和abc的文件和文件夹
+123|abc            搜索包含123或abc的文件和文件夹
+*.jpg|*.flv
+.jpg | .flv           搜索jpg或flv后缀文件         （两种表示方式任选一种，第二种竖线|两边加空格）
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>竖线 | 表示或，空格表示与，都可以多个连续使用</p>
+<p>在使用之前，确保已经打开正则表达式选项（菜单 Search → Enable Regex）</p>
+<p>为了在搜索条件中包含空格，你可以使用双引号。<br>
+例如，<code>&quot;foo bar&quot;</code>只能匹配 <code>foo bar</code>，而不能匹配 fooadbar、fooibar 等等。</p>
+</blockquote>
+<p>如何只显示二级目录内容，不显示多级子目录下文件？示例 <code>C:\New Folder\ parents:2</code></p>
+<h2 id="重复文件">重复文件🔗</h2>
+<p>以下搜索函数可以搜索重复文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">搜索含有相同文件名的文件和文件夹。
+</code></pre></td></tr></table>
+</div>
+</div><p>重复文件将在完整索引中搜索，而不是当前搜索结果。</p>
+<p>搜索并以重复属性类型排序以显示最佳结果。。</p>
+<p>Everything 不会检测文件内容。使用重复搜索函数作为辅助。</p>
+<p>实用例子：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">dupe: .mp4
+# 这个很实用
+size:&gt;1gb sizedupe:
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>补充：</p>
+<p><code>empty:</code> 搜索空文件夹</p>
+</blockquote>
+<h2 id="与日期相关的搜索">与日期相关的搜索🔗</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">搜索指定最近修改日期的文件和文件夹。
+</code></pre></td></tr></table>
+</div>
+</div><p>快速搜索今日修改的文件（监控系统实时变更）：</p>
+<p>搜索这周创建的文件和文件夹：</p>
+<p>搜索创建于 2014 年 8 月 1 日到 2014 年 8 月 31 日的文件和文件夹:</p>
+<h2 id="正则表达式">正则表达式🔗</h2>
+<p>正则表达式默认覆盖搜索语法。搜索操作符、通配符、宏、修饰符和函数无法工作于正则表达式模式。</p>
+<p>正则表达式必须从搜索菜单启用或使用搜索前缀 regex:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">匹配 a 或 b
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="搜索历史">搜索历史🔗</h2>
+<p>搜索历史是先前搜索记录列表。</p>
+<p>搜索历史默认禁用。</p>
+<p>当启用搜索历史后，您可以在搜索框通过组合键 Ctrl + Space 列举搜索建议。</p>
+<h2 id="文件夹索引">文件夹索引🔗</h2>
+<p>文件夹索引让 Everything 可以索引任何文件系统文件夹。</p>
+<p>索引的文件夹甚至可以离线但仍旧可以通过 Everything 索引。</p>
+<p>例如，通过文件夹索引您可以索引以下：</p>
+<ul>
+<li>网络分享或映射的网络分区。</li>
+<li>FAT32 和其他分卷。</li>
+<li>任何物理文件夹 。</li>
+</ul>
+<p>添加方式： 工具 👉 选项 👉 索引 👉 …</p>
+<p><strong>索引的文件夹离线或不存在时会出现什么情况？</strong> 文件夹索引将会保持不变。</p>
+<p>但是，强制重建索引将会显示此文件夹为空。</p>
+<p>Everything 将会在指定的时间或周期时继续重扫描此文件夹，但仅在文件夹存在时更新索引。</p>
+<p>离线文件夹图标和文件信息显示将在数秒后超时。</p>
+<p>您可以在文件夹存在时按 F5 来刷新缓存。</p>
+<h2 id="文件列表">文件列表🔗</h2>
+<p><a href="https://www.voidtools.com/zh-cn/support/everything/file_lists/" target="_blank" rel="noopener noreffer">File Lists - voidtools</a></p>
+<p>Everything 文件列表 (EFU) 推荐使用于离线文件或不会变动的文件，例如 CDROM、DVDROM 或只读 NAS。</p>
+<p>EFU 文件是包含文件名、大小、日期以及属性列表的_逗号分隔值 (CSV) 文件_。</p>
+<p>文件列表可以通过 Everything 打开或包含到 Everything 索引。</p>
+<p>文件列表可以被搜索并可以立即按大小、日期或属性排序。</p>
+<p>如何创建 EFU 文件列表？</p>
+<ul>
+<li>在 <em><strong>Everything”</strong></em> 中，打开<strong>工具</strong>菜单，点击<strong>文件列表编辑器…</strong>。</li>
+<li>在<strong>文件列表编辑器</strong>中，<strong>拖拽</strong>文件到列表以添加到文件列表。</li>
+<li>您也可以从编辑菜单添加文件和文件夹。</li>
+<li>添加完成后，打开<strong>文件</strong>菜单，点击<strong>保存</strong>。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">搜索文件名列表中的文件。
+</code></pre></td></tr></table>
+</div>
+</div><p>其他：</p>
+<ul>
+<li>使用（系统）计划任务更新文件列表</li>
+<li>包含文件列表到 the Everything 索引：工具 👉 选项 👉 文件列表 👉 添加</li>
+</ul>
+<h2 id="everything-高级设置-ini-文件">Everything 高级设置 (ini 文件)🔗</h2>
+<p>文件 Everything.ini 保存有全部的 Everything 设置。</p>
+<p>一般来说， 文件 Everything.ini 将保存在 Everything.exe 相同目录 。</p>
+<blockquote>
+<p>对于实用 Scoop 安装 everything 的用户，需要更改<code>..\scoop\Applications\persist\everything\</code> 目录下的 ini 文件。（persist 目录是 scoop 专门用来保存用户配置的目录）</p>
+</blockquote>
+<p>注意：<strong>文件 Everything.ini 是自动生成的。Everything 运行过程中对 Everything.ini 的变更将丢失。</strong></p>
+<p>请<strong>从托盘图标中退出</strong> “<em>Everything</em>” 然后再更改 Everything.ini 文件。 Everything.ini 文件编码格式为 UTF-8。</p>
+<p>语法：</p>
+<h3 id="实现搜索排序">实现搜索排序🔗</h3>
+<p><strong>搜索相关设置</strong></p>
+<p><em><strong>sort</strong></em></p>
+<p>最后的排序。如果 home_sort 为 1，则在打开新的搜索窗口时将还原此排序。如果 always_keep_sort 为 0，则如果是慢速排序，则将忽略此值。</p>
+<p>可以是下列排序类型之一：</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Name 名称</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Path 路径</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Extension 扩展名</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Type 类型</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Date modified 修改日期</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Date created 创建日期</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Date accessed 访问日期</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Attributes 属性</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Date recently changed 最近更改日期</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Run count 运行计数</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Date run 日期运行</td>
+</tr>
+<tr>
+<td>11</td>
+<td>File list filename 文件列表文件名</td>
+</tr>
+</tbody>
+</table>
+<p><em><strong>sort_ascending</strong></em></p>
+<p>升序或降序排序。设置为 <code>1</code> 以升序排序。设置为 <code>0</code> 以降序排序。</p>
+<p><strong>Everything 如何实现搜索时直接以修改时间为默认排序？</strong></p>
+<p>找到 Everything.ini，修改如下几项参数的值为以下值：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sort=4
+sort_ascending=0
+always_keep_sort=1
+home_sort=0
+</code></pre></td></tr></table>
+</div>
+</div><p>如果找到正确的 Everything.ini 文件，并按上文的操作来进行就可以更改成功。</p>
+<blockquote>
+<p><a href="https://www.everythingsearch.cn/284.html" target="_blank" rel="noopener noreffer">Everything_SetSort | Search Everything 中文版</a></p>
+</blockquote>
+<h2 id="补充">补充🔗</h2>
+<ul>
+<li>
+<p>搜索非 NTFS 格式文件：</p>
+<p>比如 U 盘，只需手动将其加入索引即可。</p>
+<p>工具👉选项👉索引👉文件夹👉添加👉选择 U 盘对应的盘符</p>
+</li>
+<li>
+<p>对文件中的内容进行搜索：利用 <code>content:&lt;text&gt;</code> 默认 UTF-8 格式文本内容</p>
+<p>由于现在用户经常使用 ANSI 和 UNICODE 两种不同的编码方式标准，因此这个参数的搜索规则是：“搜索路径” <code>ansicontent:</code>&quot;搜索关键词”，或者&rdquo; 搜索路径” <code>utf16content:</code>&quot;搜索关键词”。比如我们要在 E 盘的 ABC 这个文件夹目录中搜索&rdquo; 黑客 &quot; 这个关键词，那么就输入<code>E:abc utf16content:&quot;黑客&quot;</code>这一行命令，或者<code>E:abc ansicontent:&quot;黑客&quot;</code>这一行命令即可</p>
+</li>
+<li>
+<p>是</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>官方帮助文档</strong>：<a href="https://www.voidtools.com/zh-cn/support/everything/" target="_blank" rel="noopener noreffer">Everything - voidtools</a></p>
+</blockquote>
+<h3 id="语法">语法🔗</h3>
+<p><a href="https://www.voidtools.com/zh-cn/support/everything/searching/" target="_blank" rel="noopener noreffer">Searching - voidtools</a></p>
+<ul>
+<li>操作符：</li>
+<li>通配符：仅有 <code>*</code> 和 <code>?</code></li>
+<li>宏：无需添加额外参数
+<ul>
+<li><code>zip:</code>搜索压缩文件，</li>
+<li><code>doc:</code> 搜索文档文件</li>
+<li>类似 <code>exe:</code> 、<code>pic:</code>、<code>audio:</code>、<code>video:</code></li>
+</ul>
+</li>
+<li>修饰符：示例<code>file:</code> 仅匹配文件</li>
+<li>函数：大多有参数，并且有函数语法</li>
+</ul>
+<p>函数语法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">小于等于某设定值。
+</code></pre></td></tr></table>
+</div>
+</div><p>大小语法：</p>
+<p>大小常数：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">0 KB &lt; 大小 &lt;= 10 KB
+</code></pre></td></tr></table>
+</div>
+</div><p>日期语法</p>
+<p><code>month/year</code> 或 <code>year/month</code> 取决于本地设置</p>
+<p><code>day/month/year</code>, <code>month/day/year</code> 或 <code>year/month/day</code> 取决于本地设置</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">YYYY[-MM[-DD[Thh[:mm[:ss[.sss]]]]]]
+YYYYMM[DD[Thh[mm[ss[.sss]]]]]
+</code></pre></td></tr></table>
+</div>
+</div><p>日期常数：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">january|february|march|april|may|june|july|august|september|october|november|december
+jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec
+sunday|monday|tuesday|wednesday|thursday|friday|saturday
+sun|mon|tue|wed|thu|fri|sat
+unknown
+</code></pre></td></tr></table>
+</div>
+</div></div>
+
+<div>
+    
+<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
+    <h5>「感谢支持」</h5>
+    <button id="rewardButton" disable="enable"
+        onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+        <span>赞赏</span></button>
+    <div id="QR" style="display: none;">
+        <div id="wechat" style="display: inline-block">
+            <a class="fancybox" rel="group">
+                <img id="wechat_qr" src="https://xiao_beita.gitee.io/images/wx.png" alt="WeChat Pay"></a>
+            <h3>微信赞赏</h3>
+        </div>
+        <div id="alipay" style="display: inline-block">
+            <a class="fancybox" rel="group">
+                <img id="alipay_qr" src="https://xiao_beita.gitee.io/images/zfb.png" alt="Alipay"></a>
+            <h3>支付宝赞赏</h3>
+        </div>
+    </div>
+</div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020-11-24</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/everything/">Everything</a>,&nbsp;<a href="/tags/%E6%8A%80%E5%B7%A7/">技巧</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/014_linux_soft/" class="prev" rel="prev" title="一些Linux软件的安装"><i class="fas fa-angle-left fa-fw"></i>一些Linux软件的安装</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.68.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://xiao_beita.gitee.io" target="_blank">小贝塔</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"jIr74gnHtvHz03zHUkbBxqQP-gzGzoHsz","appKey":"5U61rAcCDSx0lXg64VGEpS1V","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"visitor":true}},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
