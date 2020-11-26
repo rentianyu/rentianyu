@@ -1,13 +1,11 @@
 # Everything使用教程
 
 
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://www.thisfaner.com/p/everything/
-
-
-
 <!--more-->
 
 ## Everything
+
+> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://www.thisfaner.com/p/everything/
 
 Everything 安装好后，建议开启Everything 服务
 

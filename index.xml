@@ -12,10 +12,10 @@
     <pubDate>Tue, 24 Nov 2020 13:16:53 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/015_everything/</guid>
-    <description><![CDATA[<blockquote>
+    <description><![CDATA[<h2 id="everything">Everything</h2>
+<blockquote>
 <p>本文由 <a href="http://ksria.com/simpread/" target="_blank" rel="noopener noreffer">简悦 SimpRead</a> 转码， 原文地址 <a href="https://www.thisfaner.com/p/everything/">https://www.thisfaner.com/p/everything/</a></p>
 </blockquote>
-<h2 id="everything">Everything</h2>
 <p>Everything 安装好后，建议开启Everything 服务</p>
 <p>Everything 服务可以索引 NTFS 分卷和监控 USN 日志。</p>
 <p>这将可以让 Everything 以标准用户方式运行，而不用每次打开Everything都提示需要管理员权限( UAC )。</p>
