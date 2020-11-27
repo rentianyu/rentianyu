@@ -15,8 +15,7 @@
 <pre><code>此篇文章是关于找开启软件某些界面shell命令的教程。我先大体说一下，基本
 </code></pre>
 <h2 id="一activity软件抓">一、Activity软件抓</h2>
-<pre><code>此方法比较简单，安装[Activity](https://www.coolapk.com/apk/l.Activity)并授予剪贴板权限、无障碍权限（如有root，直接一键激活），然后正常运行到要提取的界面，观察活动名，正确的话就点一下悬浮窗就会提取所需要的的`包名/活动名` 到剪贴板。然后用以下命令拼接即可
-</code></pre>
+<p>​	此方法比较简单，安装<a href="https://www.coolapk.com/apk/l.Activity" target="_blank" rel="noopener noreffer">Activity</a>并授予剪贴板权限、无障碍权限（如有root，直接一键激活），然后正常运行到要提取的界面，观察活动名，正确的话就点一下悬浮窗就会提取所需要的的<code>包名/活动名</code> 到剪贴板。然后用以下命令拼接即可</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
