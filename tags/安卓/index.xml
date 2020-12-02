@@ -10,12 +10,10 @@
     <pubDate>Fri, 27 Nov 2020 22:42:27 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://xiao_beita.gitee.io/016_activity/</guid>
-    <description><![CDATA[<h1 id="抓活动">抓活动</h1>
-<h2 id="前言">前言</h2>
-<pre><code>此篇文章是关于找开启软件某些界面shell命令的教程。我先大体说一下，基本
-</code></pre>
+    <description><![CDATA[<h2 id="前言">前言</h2>
+<p>此篇文章是关于找开启软件某些界面shell命令的教程。先说几点东西</p>
 <h2 id="一activity软件抓">一、Activity软件抓</h2>
-<p>​	此方法比较简单，安装<a href="https://www.coolapk.com/apk/l.Activity" target="_blank" rel="noopener noreffer">Activity</a>并授予剪贴板权限、无障碍权限（如有root，直接一键激活），然后正常运行到要提取的界面，观察活动名，正确的话就点一下悬浮窗就会提取所需要的的<code>包名/活动名</code> 到剪贴板。然后用以下命令拼接即可</p>
+<p>​	此方法比较简单，安装 <a href="https://www.coolapk.com/apk/l.Activity" target="_blank" rel="noopener noreffer">Activity</a> 软件，授予剪贴板权限、无障碍权限（如有root，直接一键激活）等权限，然后正常运行到要提取的界面，观察活动名，正确的话点一下悬浮窗提取所需要的的<code>包名/活动名</code> 到剪贴板。然后用以下命令拼接可得到所需命令</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -27,7 +25,7 @@
 </div><p>注意：</p>
 <ol>
 <li>
-<p>如果提取到的含有特殊符号（比如$）,把<code>包名/活动名</code>用英文的引号引起来，单、双引号都可。</p>
+<p>如果提取到的含有特殊符号（比如$）,把<code>包名/活动名</code>用英文的引号引起来，单、双引号都可，我称之为<code>引号原则</code>。</p>
 </li>
 <li>
 <p>如果<code>活动名</code>中含有<code>包名</code>，可删去<code>活动名</code>中的<code>包名</code>（强迫症福音）。</p>
@@ -46,7 +44,55 @@ am start -n <span class="s2">&#34;包名/活动名&#34;</span>
 </div><div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1bD4y1X7T7&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
 
 <h2 id="二xposed-edge-pro抓">二、xposed edge pro抓</h2>
-<p>​</p>
-<h2 id="三网址中提取">三、网址中提取</h2>]]></description>
+<p>​	这个比较简单，思路就是利用xposed edge pro的<code>应用菜单</code>抓取，再处理其数据就得到命令</p>
+<ol>
+<li>
+<p>设置好edge手势（别的也可）触发<code>应用菜单</code></p>
+</li>
+<li>
+<p>到要抓的界面调出<code>应用菜单</code>-<code>活动</code>-<code>带参数提取活动</code></p>
+</li>
+<li>
+<p>以文本方式打开<code>/data/user_de/0/com.jozein.xedgepro/prefs/collection</code>找到最后一行</p>
+</li>
+<li>
+<p>以空格为界，最后一项为操作的值</p>
+</li>
+<li>
+<p>如果该值符合<code>包名/活动名</code>的特点，就按 <code>am start -n 包名/活动名</code>处理即可，</p>
+<p>否则按如下处理即可得到命令</p>
+</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">am start <span class="s1">&#39;intent:值&#39;</span>
+或
+am start <span class="s2">&#34;intent:值&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="三抓取桌面图标">三、抓取桌面图标</h2>
+<p>这个直接用依心所言的写的shell脚本即可</p>
+<ol>
+<li>下载依心所言的脚本：</li>
+<li>发送快捷方式到桌面</li>
+</ol>
+<h2 id="四抓取系统设置">四、抓取系统设置</h2>
+<p>这个直接用依心所言的写的shell脚本即可</p>
+<p>操作步骤是，先执行一次脚本，然后改变一次设置开关，然后再执行一次脚本，接着查看抓到的信息即可</p>
+<h2 id="五网址中提取url-scheme">五、网址中提取URL scheme</h2>
+<p>这个比较麻烦，我就直接上</p>
+<h2 id="六edge联合termux-api一键抓取">六、edge联合termux-api一键抓取</h2>
+<p>这个需要安装termux以及termux-api，并且把termux有关命令安装进系统才行</p>
+<h2 id="后记">后记</h2>
+<ol>
+<li>关于双开软件没有介绍，只简单提一句<code>am start --user 999 </code></li>
+<li>关于我注明的使用的他人脚本，我（小贝塔）已经取得脚本作者允许这样使用，其他人使用请联系脚本作者。其他代码，未注明皆由我所写，其他人可以使用。</li>
+<li>本教程文章所有权归本人所有，转载请注明出处。</li>
+</ol>]]></description>
 </item></channel>
 </rss>
