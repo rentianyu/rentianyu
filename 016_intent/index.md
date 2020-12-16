@@ -11,7 +11,7 @@
 
 1. 下文提到的依心所言是 [**酷安 @ l14789**](http://www.coolapk.com/u/768442)
 
-2. 以下教程中提到的文件皆可在 [QQ群](https://jq.qq.com/?_wv=1027&k=LCtkXOpt) `773276432` 中，或者在其链接中下载
+2. 以下教程中提到的文件皆可在 [QQ群](https://jq.qq.com/?_wv=1027&k=LCtkXOpt) `773276432` 下载，或者在其链接中下载
 
 
 
@@ -114,8 +114,6 @@ am start -a android.intent.action.VIEW -d "URL Scheme"
 3. 反编译软件碰运气
 
 视频有空再放
-
-`{{< bilibili  >}}`
 
 
 
