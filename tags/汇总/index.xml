@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>汇总 - 标签 - 小贝塔</title>
-        <link>https://xiao_beita.gitee.io/tags/%E6%B1%87%E6%80%BB/</link>
+        <link>/tags/%E6%B1%87%E6%80%BB/</link>
         <description>汇总 - 标签 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Nov 2020 13:59:55 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/tags/%E6%B1%87%E6%80%BB/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Nov 2020 13:59:55 &#43;0800</lastBuildDate><atom:link href="/tags/%E6%B1%87%E6%80%BB/" rel="self" type="application/rss+xml" /><item>
     <title>汇总一些自动签到项目</title>
-    <link>https://xiao_beita.gitee.io/013_auto/</link>
+    <link>/013_auto/</link>
     <pubDate>Sun, 15 Nov 2020 13:59:55 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/013_auto/</guid>
+    <guid>/013_auto/</guid>
     <description><![CDATA[<h2 id="1爱奇艺">1.爱奇艺</h2>
 <ul>
 <li>简介：爱奇艺VIP签到、VIP日常任务、每日三次抽奖，注意：这个只针对爱奇艺VIP用户。</li>

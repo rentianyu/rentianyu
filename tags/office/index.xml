@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>office - 标签 - 小贝塔</title>
-        <link>https://xiao_beita.gitee.io/tags/office/</link>
+        <link>/tags/office/</link>
         <description>office - 标签 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/tags/office/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</lastBuildDate><atom:link href="/tags/office/" rel="self" type="application/rss+xml" /><item>
     <title>命令行激活Windows系统和Office</title>
-    <link>https://xiao_beita.gitee.io/004_activate/</link>
+    <link>/004_activate/</link>
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/004_activate/</guid>
+    <guid>/004_activate/</guid>
     <description><![CDATA[<h2 id="一kms激活windows系统推荐">一、kms激活Windows系统，(推荐)</h2>
 <h3 id="11-数字激活windows-10">1.1 数字激活<code>Windows 10</code></h3>
 <ul>

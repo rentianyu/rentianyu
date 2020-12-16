@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Linux - 标签 - 小贝塔</title>
-        <link>https://xiao_beita.gitee.io/tags/linux/</link>
+        <link>/tags/linux/</link>
         <description>Linux - 标签 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Nov 2020 17:12:14 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Nov 2020 17:12:14 &#43;0800</lastBuildDate><atom:link href="/tags/linux/" rel="self" type="application/rss+xml" /><item>
     <title>一些Linux软件的安装</title>
-    <link>https://xiao_beita.gitee.io/014_linux_soft/</link>
+    <link>/014_linux_soft/</link>
     <pubDate>Sun, 15 Nov 2020 17:12:14 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/014_linux_soft/</guid>
+    <guid>/014_linux_soft/</guid>
     <description><![CDATA[<h2 id="0-注意">0. 注意</h2>
 <ul>
 <li>以下只用于<code>Ubuntu</code>系统</li>

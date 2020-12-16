@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://xiao_beita.gitee.io/sitemap.xml
+Sitemap: /sitemap.xml

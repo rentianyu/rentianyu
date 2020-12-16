@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>备份 - 分类 - 小贝塔</title>
-        <link>https://xiao_beita.gitee.io/categories/%E5%A4%87%E4%BB%BD/</link>
+        <link>/categories/%E5%A4%87%E4%BB%BD/</link>
         <description>备份 - 分类 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Nov 2020 17:12:14 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/categories/%E5%A4%87%E4%BB%BD/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Nov 2020 17:12:14 &#43;0800</lastBuildDate><atom:link href="/categories/%E5%A4%87%E4%BB%BD/" rel="self" type="application/rss+xml" /><item>
     <title>一些Linux软件的安装</title>
-    <link>https://xiao_beita.gitee.io/014_linux_soft/</link>
+    <link>/014_linux_soft/</link>
     <pubDate>Sun, 15 Nov 2020 17:12:14 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/014_linux_soft/</guid>
+    <guid>/014_linux_soft/</guid>
     <description><![CDATA[<h2 id="0-注意">0. 注意</h2>
 <ul>
 <li>以下只用于<code>Ubuntu</code>系统</li>
@@ -55,10 +55,10 @@ apt-get install -y nodejs
 </blockquote>]]></description>
 </item><item>
     <title>Fish Shell 的简单使用和Oh-my-fish主题的展示</title>
-    <link>https://xiao_beita.gitee.io/009_fish_omf/</link>
+    <link>/009_fish_omf/</link>
     <pubDate>Thu, 05 Nov 2020 18:42:40 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/009_fish_omf/</guid>
+    <guid>/009_fish_omf/</guid>
     <description><![CDATA[<h2 id="一fish-的安装与简单配置">一、FIsh 的安装与简单配置</h2>
 <ul>
 <li>介绍：ArchLinux 上的 <a href="https://wiki.archlinux.org/index.php/Fish_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29" target="_blank" rel="noopener noreffer">fish 简体中文</a></li>
@@ -797,10 +797,10 @@ rm -r <span class="k">$(</span>find ~ -name fish<span class="k">)</span>
 </ul>]]></description>
 </item><item>
     <title>Windows系统右键增加新建MrakDown和sh</title>
-    <link>https://xiao_beita.gitee.io/008_win_right_md/</link>
+    <link>/008_win_right_md/</link>
     <pubDate>Mon, 26 Oct 2020 13:19:30 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/008_win_right_md/</guid>
+    <guid>/008_win_right_md/</guid>
     <description><![CDATA[<h2 id="一保证已安装typora">一、保证已安装<code>Typora</code></h2>
 <ul>
 <li><a href="https://typora.io" target="_blank" rel="noopener noreffer">Typora官网</a></li>
@@ -848,10 +848,10 @@ rm -r <span class="k">$(</span>find ~ -name fish<span class="k">)</span>
 </blockquote>]]></description>
 </item><item>
     <title>命令行激活Windows系统和Office</title>
-    <link>https://xiao_beita.gitee.io/004_activate/</link>
+    <link>/004_activate/</link>
     <pubDate>Wed, 05 Aug 2020 11:07:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/004_activate/</guid>
+    <guid>/004_activate/</guid>
     <description><![CDATA[<h2 id="一kms激活windows系统推荐">一、kms激活Windows系统，(推荐)</h2>
 <h3 id="11-数字激活windows-10">1.1 数字激活<code>Windows 10</code></h3>
 <ul>
@@ -900,10 +900,10 @@ cscript ospp.vbs /act
 </blockquote>]]></description>
 </item><item>
     <title>scoop 使用教程</title>
-    <link>https://xiao_beita.gitee.io/001_scoop/</link>
+    <link>/001_scoop/</link>
     <pubDate>Tue, 04 Aug 2020 11:17:53 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/001_scoop/</guid>
+    <guid>/001_scoop/</guid>
     <description><![CDATA[<p><strong>scoop 自用教程</strong></p>
 <h1 id="代码如下">代码如下</h1>
 <div class="highlight"><div class="chroma">

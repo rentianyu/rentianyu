@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>oh-my-posh - 标签 - 小贝塔</title>
-        <link>https://xiao_beita.gitee.io/tags/oh-my-posh/</link>
+        <link>/tags/oh-my-posh/</link>
         <description>oh-my-posh - 标签 - 小贝塔</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1782898491@qq.com (小贝塔)</managingEditor>
-            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 Nov 2020 16:28:35 &#43;0800</lastBuildDate><atom:link href="https://xiao_beita.gitee.io/tags/oh-my-posh/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 Nov 2020 16:28:35 &#43;0800</lastBuildDate><atom:link href="/tags/oh-my-posh/" rel="self" type="application/rss+xml" /><item>
     <title>PowerShell的美化</title>
-    <link>https://xiao_beita.gitee.io/012_powershell/</link>
+    <link>/012_powershell/</link>
     <pubDate>Thu, 12 Nov 2020 16:28:35 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://xiao_beita.gitee.io/012_powershell/</guid>
+    <guid>/012_powershell/</guid>
     <description><![CDATA[<h2 id="一说明">一、说明</h2>
 <p>​	PowerShell的美化从两方面入手，一是命令行方面，这个安装 <a href="https://github.com/JanDeDobbeleer/oh-my-posh" target="_blank" rel="noopener noreffer">oh-my-posh</a> 来解决，另一个就是字体和配色，按照我的设置解决。</p>
 <p>​	上个图</p>
