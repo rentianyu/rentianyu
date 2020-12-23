@@ -13,13 +13,16 @@
 
 ```bash
 # 安装官方docker
-curl -fsSL get.docker.com -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
 # 使用镜像源
+curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh --mirror Aliyun
 sudo sh get-docker.sh --mirror AzureChinaCloud
 ```
 
-> 参考网址：[https://yeasy.gitbook.io/docker_practice/install/ubuntu](https://yeasy.gitbook.io/docker_practice/install/ubuntu)
+> 参考网址：[https://yeasy.gitbook.io/docker_practice/install/ubuntu](https://yeasy.gitbook.io/docker_practice/install/ubuntu#shi-yong-jiao-ben-zi-dong-an-zhuang)
 
 ##  2.nodejs
 
