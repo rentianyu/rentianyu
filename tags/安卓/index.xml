@@ -134,9 +134,22 @@ am start -a android.intent.action.VIEW -d <span class="s2">&#34;URL Scheme&#34;<
 </div>
 </div><p>这个比较麻烦，分好几种吧</p>
 <ol>
-<li>网页源码中找</li>
-<li>苹果社区搜索，有一定几率通用，网址：</li>
-<li>反编译软件碰运气</li>
+<li>
+<p>网页中找</p>
+<p>1.1 找可以打开软件的网址</p>
+<p>1.2 特定网址查找</p>
+<p>1.3 网址源码中查找</p>
+<p>1.4 网页<code>js</code>中查找</p>
+</li>
+<li>
+<p>苹果社区搜索，有一定几率通用，网址：</p>
+</li>
+<li>
+<p>反编译软件碰运气（这里使用MT做演示）</p>
+<p>3.1 打开一个软件包</p>
+<p>3.2 反编译打开软件包根目录下的<code>AndroidManifest.xml</code>并搜索<code>scheme</code>或者<code>schema</code>来确定该软件支持的协议头</p>
+<p>配合在有关网页中找到的协议头</p>
+</li>
 </ol>
 <p>视频有空再放</p>
 <h2 id="六edge联合termux-api一键抓取">六、edge联合termux-api一键抓取</h2>

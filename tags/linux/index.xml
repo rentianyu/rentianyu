@@ -58,6 +58,23 @@ apt-get install -y nodejs
 </div>
 </div><blockquote>
 <p>参考网址：<a href="https://github.com/nodesource/distributions#installation-instructions" target="_blank" rel="noopener noreffer">https://github.com/nodesource/distributions#installation-instructions</a></p>
+</blockquote>
+<h2 id="3rclone">3.rclone</h2>
+<ul>
+<li>安装linux版</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># root 用户执行</span>
+curl https://rclone.org/install.sh <span class="p">|</span> sudo bash
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>参考网址：<a href="https://rclone.org/downloads/" target="_blank" rel="noopener noreffer">https://rclone.org/downloads/</a></p>
 </blockquote>]]></description>
 </item></channel>
 </rss>

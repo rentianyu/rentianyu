@@ -35,3 +35,14 @@ apt-get install -y nodejs
 ```
 
 > 参考网址：[https://github.com/nodesource/distributions#installation-instructions](https://github.com/nodesource/distributions#installation-instructions)
+
+##  3.rclone
+
+- 安装linux版
+
+```bash
+# root 用户执行
+curl https://rclone.org/install.sh | sudo bash
+```
+
+> 参考网址：[https://rclone.org/downloads/](https://rclone.org/downloads/)

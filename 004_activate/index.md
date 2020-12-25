@@ -1,4 +1,4 @@
-# 命令行激活Windows系统和Office
+# 激活 Windows 和 Office
 
 
 <!--more-->
@@ -33,6 +33,11 @@ cscript ospp.vbs /act
 ```
 
 > 参考网址：[Windows系统一句命令激活](https://v0v.bid/kms.html)
+>
+> 激活脚本：便捷KMS一键激活脚本 [点击下载](https://v0v.bid/kmspro.zip) （解压密码：`https://v0v.bid` ）
+>
+> ​				或我提供的官方副本（免解压）：[kmspro.bat](/images/kmspro.bat)
+>
 > 安装`Office`：[Office Tool Plus](https://otp.landian.vip)
 
 
