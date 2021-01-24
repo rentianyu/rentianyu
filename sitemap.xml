@@ -2,17 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/categories/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/posts/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/tags/shell/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/tags/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/tags/%E5%AE%89%E5%8D%93/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/tags/%E6%8F%90%E5%8F%96/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/016_intent/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/categories/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>/tags/everything/</loc><lastmod>2020-11-24T13:16:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>/015_everything/</loc><lastmod>2020-11-24T13:16:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>/tags/%E6%8A%80%E5%B7%A7/</loc><lastmod>2020-11-24T13:16:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>/categories/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/posts/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/shell/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/%E5%AE%89%E5%8D%93/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/%E6%8F%90%E5%8F%96/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/016_intent/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-11-27T22:42:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/everything/</loc><lastmod>2020-11-24T13:16:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/015_everything/</loc><lastmod>2020-11-24T13:16:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/%E6%8A%80%E5%B7%A7/</loc><lastmod>2020-11-24T13:16:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/linux/</loc><lastmod>2020-11-15T17:12:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/014_linux_soft/</loc><lastmod>2020-11-15T17:12:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/%E5%A4%87%E4%BB%BD/</loc><lastmod>2020-11-15T17:12:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -67,9 +67,9 @@
             <loc>/000_benediction/</loc><lastmod>2020-10-26T13:27:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/%E7%A5%9D%E7%A6%8F/</loc><lastmod>2020-10-26T13:27:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/categories/%E7%A5%9D%E7%A6%8F/</loc><lastmod>2020-10-26T13:27:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/about-%E5%89%AF%E6%9C%AC/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/about/</loc><lastmod>2020-10-30T19:09:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/</loc><lastmod>2020-10-30T19:09:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/bookmark/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/content/</loc><lastmod>2020-07-31T20:00:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/installation/</loc><lastmod>2020-07-31T20:00:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>/tags/configuration/</loc><lastmod>2020-07-31T20:00:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

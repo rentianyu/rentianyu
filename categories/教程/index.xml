@@ -88,7 +88,7 @@ am start <span class="s2">&#34;intent:值&#34;</span>
 <h2 id="三抓取桌面图标">三、抓取桌面图标</h2>
 <p>这个直接用依心所言的写的shell脚本即可</p>
 <ol>
-<li>下载依心所言的脚本：<a href="https://n802.com/file/18365508-476132720" target="_blank" rel="noopener noreffer">提取Shortcut与启动器快捷6.6版[依心所言].sh</a></li>
+<li>下载依心所言的脚本：<a href="https://n802.com/f/18365508-480188501-5d83dc" target="_blank" rel="noopener noreffer">提取Shortcut与启动器快捷6.6版[依心所言].sh</a>（访问密码：1234）</li>
 <li>发送快捷方式到桌面</li>
 <li>运行脚本（可使用<a href="" rel="">MT管理器</a>、FV悬浮球、常规脚本）</li>
 <li>查找<code>/sdcard/A2020/</code>下文件中的命令</li>
@@ -98,7 +98,7 @@ am start <span class="s2">&#34;intent:值&#34;</span>
 <h2 id="四抓取系统设置">四、抓取系统设置</h2>
 <p>这个直接用依心所言的写的shell脚本即可</p>
 <ol>
-<li>下载依心所言的脚本：<a href="https://n802.com/file/18365508-476139177" target="_blank" rel="noopener noreffer">提取系统设置开关命令7.0版[依心所言与小贝塔].sh</a></li>
+<li>下载依心所言的脚本：<a href="https://n802.com/f/18365508-476139177-5207da" target="_blank" rel="noopener noreffer">提取系统设置开关命令7.0版[依心所言与小贝塔].sh</a>（访问密码：1234）</li>
 <li>执行一次脚本</li>
 <li>改变一次设置开关状态</li>
 <li>然后再执行一次脚本</li>
