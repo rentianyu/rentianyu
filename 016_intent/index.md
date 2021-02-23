@@ -68,7 +68,7 @@ am start "intent:值"
 
 这个直接用依心所言的写的shell脚本即可
 
-1. 下载依心所言的脚本：[提取Shortcut与启动器快捷6.6版[依心所言].sh](https://n802.com/f/18365508-480188501-5d83dc)（访问密码：1234）
+1. 下载依心所言的脚本：[提取Shortcut与桌面启动器(引号可选版)7.3.sh](https://n802.com/f/18365508-480188501-5d83dc)（访问密码：1234）
 2. 发送快捷方式到桌面
 3. 运行脚本（可使用[MT管理器]()、FV悬浮球、常规脚本）
 4. 查找`/sdcard/A2020/`下文件中的命令
@@ -107,7 +107,7 @@ am start -a android.intent.action.VIEW -d 'URL Scheme'
 am start -a android.intent.action.VIEW -d "URL Scheme"
 ```
 
-这个比较麻烦，分好几种吧
+这个比较麻烦，我就写两种吧
 
 1. 网页中找
 
@@ -119,19 +119,19 @@ am start -a android.intent.action.VIEW -d "URL Scheme"
 
    1.4 网页`js`中查找
 
-2. 苹果社区搜索，有一定几率通用，网址：
-
-3. 反编译软件碰运气（这里使用MT做演示）
+2. 反编译软件碰运气（这里使用MT做演示）
 
    3.1 打开一个软件包
 
    3.2 反编译打开软件包根目录下的`AndroidManifest.xml`并搜索`scheme`或者`schema`来确定该软件支持的协议头
 
-   
+3. 有关文章
 
-   配合在有关网页中找到的协议头
+- [URL Schemes 使用详解](https://sspai.com/post/31500)
 
-视频有空再放
+- [入门 iOS 自动化：读懂 URL Schemes](https://sspai.com/post/44591)
+
+{{< bilibili BV1RA411L7u9 >}}
 
 
 

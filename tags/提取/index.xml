@@ -88,7 +88,7 @@ am start <span class="s2">&#34;intent:值&#34;</span>
 <h2 id="三抓取桌面图标">三、抓取桌面图标</h2>
 <p>这个直接用依心所言的写的shell脚本即可</p>
 <ol>
-<li>下载依心所言的脚本：<a href="https://n802.com/f/18365508-480188501-5d83dc" target="_blank" rel="noopener noreffer">提取Shortcut与启动器快捷6.6版[依心所言].sh</a>（访问密码：1234）</li>
+<li>下载依心所言的脚本：<a href="https://n802.com/f/18365508-480188501-5d83dc" target="_blank" rel="noopener noreffer">提取Shortcut与桌面启动器(引号可选版)7.3.sh</a>（访问密码：1234）</li>
 <li>发送快捷方式到桌面</li>
 <li>运行脚本（可使用<a href="" rel="">MT管理器</a>、FV悬浮球、常规脚本）</li>
 <li>查找<code>/sdcard/A2020/</code>下文件中的命令</li>
@@ -132,7 +132,7 @@ am start -a android.intent.action.VIEW -d <span class="s1">&#39;URL Scheme&#39;<
 am start -a android.intent.action.VIEW -d <span class="s2">&#34;URL Scheme&#34;</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>这个比较麻烦，分好几种吧</p>
+</div><p>这个比较麻烦，我就写两种吧</p>
 <ol>
 <li>
 <p>网页中找</p>
@@ -142,16 +142,24 @@ am start -a android.intent.action.VIEW -d <span class="s2">&#34;URL Scheme&#34;<
 <p>1.4 网页<code>js</code>中查找</p>
 </li>
 <li>
-<p>苹果社区搜索，有一定几率通用，网址：</p>
-</li>
-<li>
 <p>反编译软件碰运气（这里使用MT做演示）</p>
 <p>3.1 打开一个软件包</p>
 <p>3.2 反编译打开软件包根目录下的<code>AndroidManifest.xml</code>并搜索<code>scheme</code>或者<code>schema</code>来确定该软件支持的协议头</p>
-<p>配合在有关网页中找到的协议头</p>
+</li>
+<li>
+<p>有关文章</p>
 </li>
 </ol>
-<p>视频有空再放</p>
+<ul>
+<li>
+<p><a href="https://sspai.com/post/31500" target="_blank" rel="noopener noreffer">URL Schemes 使用详解</a></p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/44591" target="_blank" rel="noopener noreffer">入门 iOS 自动化：读懂 URL Schemes</a></p>
+</li>
+</ul>
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1RA411L7u9&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+
 <h2 id="六edge联合termux-api一键抓取">六、edge联合termux-api一键抓取</h2>
 <p>这个需要安装termux以及termux-api，并且把termux有关命令安装进系统才行</p>
 <h2 id="后记">后记</h2>
