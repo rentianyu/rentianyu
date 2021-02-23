@@ -158,7 +158,7 @@ am start -a android.intent.action.VIEW -d <span class="s2">&#34;URL Scheme&#34;<
 <p><a href="https://sspai.com/post/31500" target="_blank" rel="noopener noreffer">URL Schemes 使用详解</a></p>
 </li>
 </ul>
-<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1RA411L7u9&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV18i4y1T7zV&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
 
 <h2 id="六edge联合termux-api一键抓取">六、edge联合termux-api一键抓取</h2>
 <p>这个需要安装termux以及termux-api，并且把termux有关命令安装进系统才行</p>

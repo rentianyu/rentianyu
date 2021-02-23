@@ -132,7 +132,7 @@ am start -a android.intent.action.VIEW -d "URL Scheme"
 - [URL Schemes 使用详解](https://sspai.com/post/31500)
 
 
-{{< bilibili BV1RA411L7u9 >}}
+{{< bilibili BV18i4y1T7zV>}}
 
 
 
