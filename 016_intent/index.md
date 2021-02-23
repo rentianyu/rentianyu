@@ -127,9 +127,10 @@ am start -a android.intent.action.VIEW -d "URL Scheme"
 
 3. 有关文章
 
+- [入门 iOS 自动化：读懂 URL Schemes](https://sspai.com/post/44591)
+
 - [URL Schemes 使用详解](https://sspai.com/post/31500)
 
-- [入门 iOS 自动化：读懂 URL Schemes](https://sspai.com/post/44591)
 
 {{< bilibili BV1RA411L7u9 >}}
 

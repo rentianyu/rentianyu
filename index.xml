@@ -154,10 +154,10 @@ am start -a android.intent.action.VIEW -d <span class="s2">&#34;URL Scheme&#34;<
 </ol>
 <ul>
 <li>
-<p><a href="https://sspai.com/post/31500" target="_blank" rel="noopener noreffer">URL Schemes 使用详解</a></p>
+<p><a href="https://sspai.com/post/44591" target="_blank" rel="noopener noreffer">入门 iOS 自动化：读懂 URL Schemes</a></p>
 </li>
 <li>
-<p><a href="https://sspai.com/post/44591" target="_blank" rel="noopener noreffer">入门 iOS 自动化：读懂 URL Schemes</a></p>
+<p><a href="https://sspai.com/post/31500" target="_blank" rel="noopener noreffer">URL Schemes 使用详解</a></p>
 </li>
 </ul>
 <div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1RA411L7u9&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
