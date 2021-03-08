@@ -41,19 +41,22 @@ sudo sh get-docker.sh --mirror AzureChinaCloud
 <p>参考网址：<a href="https://yeasy.gitbook.io/docker_practice/install/ubuntu#shi-yong-jiao-ben-zi-dong-an-zhuang" target="_blank" rel="noopener noreffer">https://yeasy.gitbook.io/docker_practice/install/ubuntu</a></p>
 </blockquote>
 <h2 id="2nodejs">2.nodejs</h2>
-<ul>
-<li>安装最新长期服务版</li>
-</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># root 用户执行</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 最新长期服务版</span>
 curl -sL https://deb.nodesource.com/setup_lts.x <span class="p">|</span> bash -
 apt-get install -y nodejs
+<span class="c1"># 15</span>
+curl -fsSL https://deb.nodesource.com/setup_15.x <span class="p">|</span> sudo -E bash -
+sudo apt-get install -y nodejs
 </code></pre></td></tr></table>
 </div>
 </div><blockquote>

@@ -26,12 +26,13 @@ sudo sh get-docker.sh --mirror AzureChinaCloud
 
 ##  2.nodejs
 
-- 安装最新长期服务版
-
 ```bash
-# root 用户执行
+# 最新长期服务版
 curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 apt-get install -y nodejs
+# 15
+curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 > 参考网址：[https://github.com/nodesource/distributions#installation-instructions](https://github.com/nodesource/distributions#installation-instructions)
