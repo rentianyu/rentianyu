@@ -4,7 +4,7 @@
 <!--more-->
 
 * 可在讨论区讨论留言补充，我会酌情增删
-* 本文地址：[https://shimo.im/docs/T9JPvy9dVkrwGx83](https://shimo.im/docs/T9JPvy9dVkrwGx83?fileGuid=T9JPvy9dVkrwGx83)
+* 本文地址：[https://xiao_beita.gitee.io/software](https://xiao_beita.gitee.io/software)
 * 此软件列表我会一直更新，最下边有更新日志，高亮文字是我电脑正在用的
 * 本人系统: Win 10 专业版 (itellyou):[https://msdn.itellyou.cn](https://msdn.itellyou.cn?fileGuid=T9JPvy9dVkrwGx83)
 * 软件只写官网，装不装还是看个人需求，以下好多软件可以用 scoop 安装

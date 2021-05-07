@@ -7,6 +7,84 @@
             <webMaster>1782898491@qq.com (小贝塔)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
             <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>017_zsh与Oh-My-Zsh的简单配置</title>
+    <link>/017_zsh_omz/</link>
+    <pubDate>Fri, 07 May 2021 22:10:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>/017_zsh_omz/</guid>
+    <description><![CDATA[<h1 id="017_zsh与oh-my-zsh的配置">017_ZSH与Oh-My-Zsh的配置</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 安装 zsh</span>
+apt install zsh
+
+<span class="c1"># 无人值守安装 Oh-My-Zsh</span>
+sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span> <span class="s2">&#34;&#34;</span> --unattended
+<span class="c1"># 设置默认shell为zsh</span>
+whoami <span class="p">|</span> grep root <span class="o">&amp;&amp;</span> chsh -s <span class="k">$(</span>which zsh<span class="k">)</span> <span class="o">||</span> chsh -s zsh
+
+<span class="c1"># 克隆插件</span>
+<span class="c1"># zsh-autosuggestions</span>
+git clone git://github.com/zsh-users/zsh-autosuggestions <span class="nv">$ZSH_CUSTOM</span>/plugins/zsh-autosuggestions
+<span class="c1"># zsh-syntax-highlighting</span> 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="nv">$ZSH_CUSTOM</span>/plugins/zsh-syntax-highlighting
+<span class="c1"># ys 主题</span>
+sed -i <span class="s1">&#39;s/ZSH_THEME=.*/ZSH_THEME=&#34;ys&#34;/&#39;</span> ~/.zshrc
+<span class="c1"># 启用插件</span>
+sed -i <span class="s1">&#39;s/plugins=.*/plugins=(extract z zsh-autosuggestions zsh-syntax-highlighting)/&#39;</span> ~/.zshrc
+<span class="c1"># extract  解压文件用的，所有的压缩文件，都可以直接 x filename</span>
+
+
+<span class="c1"># 编辑ZSH配置文件</span>
+vim ~/.zshrc
+<span class="c1"># 查看主题</span>
+ls ~/.oh-my-zsh/themes
+<span class="c1"># 更新配置</span>
+<span class="nb">source</span> ~/.zshrc
+<span class="c1"># 更新omz</span>
+omz update
+<span class="c1"># 卸载omz</span>
+uninstall_oh_my_zsh
+
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p><a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank" rel="noopener noreffer">ohmyzsh官网</a></p>
+</blockquote>]]></description>
+</item><item>
     <title>Win 系统软件推荐</title>
     <link>/software/</link>
     <pubDate>Tue, 04 May 2021 23:15:01 &#43;0800</pubDate>
@@ -14,7 +92,7 @@
     <guid>/software/</guid>
     <description><![CDATA[<ul>
 <li>可在讨论区讨论留言补充，我会酌情增删</li>
-<li>本文地址：<a href="https://shimo.im/docs/T9JPvy9dVkrwGx83?fileGuid=T9JPvy9dVkrwGx83" target="_blank" rel="noopener noreffer">https://shimo.im/docs/T9JPvy9dVkrwGx83</a></li>
+<li>本文地址：<a href="https://xiao_beita.gitee.io/software" target="_blank" rel="noopener noreffer">https://xiao_beita.gitee.io/software</a></li>
 <li>此软件列表我会一直更新，最下边有更新日志，高亮文字是我电脑正在用的</li>
 <li>本人系统: Win 10 专业版 (itellyou):<a href="https://msdn.itellyou.cn?fileGuid=T9JPvy9dVkrwGx83" target="_blank" rel="noopener noreffer">https://msdn.itellyou.cn</a></li>
 <li>软件只写官网，装不装还是看个人需求，以下好多软件可以用 scoop 安装</li>
@@ -3155,56 +3233,5 @@ rm -r <span class="k">$(</span>find ~ -name fish<span class="k">)</span>
 <ul>
 <li></li>
 </ul>]]></description>
-</item><item>
-    <title>Windows系统右键增加新建MrakDown和sh</title>
-    <link>/008_win_right_md/</link>
-    <pubDate>Mon, 26 Oct 2020 13:19:30 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>/008_win_right_md/</guid>
-    <description><![CDATA[<h2 id="一保证已安装typora">一、保证已安装<code>Typora</code></h2>
-<ul>
-<li><a href="https://typora.io" target="_blank" rel="noopener noreffer">Typora官网</a></li>
-</ul>
-<h2 id="二新建reg文件并写入以下内容">二、新建<code>.reg</code>文件并写入以下内容</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">Windows</span> <span class="n">Registry</span> <span class="n">Editor</span> <span class="n">Version</span> <span class="n">5</span><span class="p">.</span><span class="n">00</span>
-<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">md</span><span class="p">]</span>
-<span class="p">@=</span><span class="s2">&#34;Typora.exe&#34;</span>
-<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">md</span><span class="p">\</span><span class="n">ShellNew</span><span class="p">]</span>
-<span class="s2">&#34;NullFile&#34;</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
-<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\</span><span class="n">Typora</span><span class="p">.</span><span class="n">exe</span><span class="p">]</span>
-<span class="p">@=</span><span class="s2">&#34;Markdown&#34;</span>
-
-<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">sh</span><span class="p">]</span>
-<span class="p">@=</span><span class="s2">&#34;notepad3.exe&#34;</span>
-<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\.</span><span class="n">sh</span><span class="p">\</span><span class="n">ShellNew</span><span class="p">]</span>
-<span class="s2">&#34;NullFile&#34;</span><span class="p">=</span><span class="s2">&#34;&#34;</span>
-<span class="p">[</span><span class="n">HKEY_CLASSES_ROOT</span><span class="p">\</span><span class="n">notepad3</span><span class="p">.</span><span class="n">exe</span><span class="p">]</span>
-<span class="p">@=</span><span class="s2">&#34;sh&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="三运行以上文件">三、运行以上文件</h2>
-<p>以下为效果图</p>
-<p></p>
-<blockquote>
-<p>本文代码源自于<a href="https://stepneverstop.github.io/win-rightclick-create-md.html" target="_blank" rel="noopener noreffer">Windows下右键新建.md文件教程</a></p>
-</blockquote>]]></description>
 </item></channel>
 </rss>
